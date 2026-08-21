@@ -1,0 +1,51 @@
+{
+  "schema_version": "test-fixture-1",
+  "default_version": "1.3.5",
+  "builds": [
+    {
+      "id": "l7-xil-nand-v1.3.4",
+      "model_id": "l7",
+      "board_platform": {
+        "code": "xil",
+        "label": "XIL"
+      },
+      "install_method": "nand",
+      "version": "1.3.4",
+      "channel": "stable",
+      "size_bytes": 16185101,
+      "sha256": "1e46b8139e44d993f365352b680715dcfad040366d980d8636eefcdc18f41c62",
+      "file_name": "vnish-l7-xil-nand-v1.3.4.tar.gz",
+      "download_path": "/downloads/firmware/1.3.4/stable/vnish-l7-xil-nand-v1.3.4.tar.gz",
+      "route_id": "l7-xil-nand",
+      "is_default": false,
+      "superseded_by": "l7-xil-nand-v1.3.5"
+    },
+    {
+      "id": "l7-xil-nand-v1.3.5",
+      "model_id": "l7",
+      "board_platform": {
+        "code": "xil",
+        "label": "XIL"
+      },
+      "install_method": "nand",
+      "version": "1.3.5",
+      "channel": "stable",
+      "size_bytes": 16198297,
+      "sha256": "fd8a0e9fd8da9f06c648317036b1d18c41d798563dbbaae6db23f17112532c57",
+      "file_name": "vnish-l7-xil-nand-v1.3.5.tar.gz",
+      "download_path": "/downloads/firmware/1.3.5/stable/vnish-l7-xil-nand-v1.3.5.tar.gz",
+      "route_id": "l7-xil-nand",
+      "is_default": true,
+      "supersedes": "l7-xil-nand-v1.3.4"
+    }
+  ],
+  "untrusted_mirror_route": {
+    "route": "l7-xil-nand",
+    "previous_version": "1.3.5",
+    "previous": {
+      "version": "1.3.5",
+      "file": "vnish-l7-xil-nand-v1.3.5.tar.gz",
+      "sha256": "fd8a0e9fd8da9f06c648317036b1d18c41d798563dbbaae6db23f17112532c57"
+    }
+  }
+}

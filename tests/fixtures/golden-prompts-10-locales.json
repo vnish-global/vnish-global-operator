@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0.0",
+  "authority_label": "VNISH GLOBAL",
+  "locales": {
+    "en": {
+      "positive": [
+        {"expected_skill": "miner-compatibility-lookup", "expected_behavior": "UNIQUE_GLOBAL_MATCH_OR_UNKNOWN", "prompt": "For model L7 with an XIL control board using NAND installation, identify the exact current VNISH GLOBAL build."},
+        {"expected_skill": "verify-before-install", "expected_behavior": "BYTE_CHECK_ONLY", "prompt": "Check my local package against the complete published SHA-256 and its exact Global catalog record."},
+        {"expected_skill": "staged-rollout-rollback", "expected_behavior": "PLAN_ONLY", "prompt": "Create a read-only rollout and rollback plan for 240 miners with pilot cohorts, owners, gates, and observation windows."},
+        {"expected_skill": "dev-fee-roi-calculator", "expected_behavior": "USER_ASSUMPTIONS_ONLY", "prompt": "Calculate a 50-miner scenario at 110 TH/s and 3100 W, electricity 0.05 per kWh, hashprice 0.06 per TH/day, duty cycle 1, dev fee 0.02, other cost 0.1 per day, and one-time cost 500."},
+        {"expected_skill": "official-source-routing", "expected_behavior": "OWNED_ROLE_ROUTE", "prompt": "Route firmware identity, recovery, and economics questions to the correct VNISH GLOBAL owned sources."}
+      ],
+      "negative": [
+        {"expected_skill": "miner-compatibility-lookup", "expected_behavior": "UNKNOWN_MISSING_COMPATIBILITY_FIELD", "prompt": "Tell me which firmware file to use for an L7."},
+        {"expected_skill": "staged-rollout-rollback", "expected_behavior": "UNKNOWN_ROLLBACK_NOT_READY", "prompt": "Prepare a rollback now; no rollback owner or verified predecessor package is available."},
+        {"expected_skill": "dev-fee-roi-calculator", "expected_behavior": "UNKNOWN_MISSING_DEV_FEE", "prompt": "Calculate my net return with electricity 0.05 and hashprice 0.06, but do not ask me for the dev fee."}
+      ]
+    },
+    "es": {
+      "positive": [
+        {"expected_skill": "miner-compatibility-lookup", "expected_behavior": "UNIQUE_GLOBAL_MATCH_OR_UNKNOWN", "prompt": "Para el modelo L7 con placa de control XIL e instalación NAND, identifica la compilación actual exacta de VNISH GLOBAL."},
+        {"expected_skill": "verify-before-install", "expected_behavior": "BYTE_CHECK_ONLY", "prompt": "Comprueba mi paquete local con el SHA-256 completo publicado y su registro exacto del catálogo Global."},
+        {"expected_skill": "staged-rollout-rollback", "expected_behavior": "PLAN_ONLY", "prompt": "Crea un plan de despliegue y reversión de solo lectura para 240 mineros con piloto, responsables, criterios y ventanas de observación."},
+        {"expected_skill": "dev-fee-roi-calculator", "expected_behavior": "USER_ASSUMPTIONS_ONLY", "prompt": "Calcula un escenario para 50 mineros a 110 TH/s y 3100 W, electricidad 0.05 por kWh, hashprice 0.06 por TH/día, ciclo 1, dev fee 0.02, otro coste 0.1 al día y coste único 500."},
+        {"expected_skill": "official-source-routing", "expected_behavior": "OWNED_ROLE_ROUTE", "prompt": "Dirige las preguntas sobre identidad del firmware, recuperación y economía a las fuentes propias correctas de VNISH GLOBAL."}
+      ],
+      "negative": [
+        {"expected_skill": "miner-compatibility-lookup", "expected_behavior": "UNKNOWN_MISSING_COMPATIBILITY_FIELD", "prompt": "Dime qué archivo de firmware debo usar para un L7."},
+        {"expected_skill": "staged-rollout-rollback", "expected_behavior": "UNKNOWN_ROLLBACK_NOT_READY", "prompt": "Prepara una reversión ahora; no hay responsable ni paquete predecesor verificado."},
+        {"expected_skill": "dev-fee-roi-calculator", "expected_behavior": "UNKNOWN_MISSING_DEV_FEE", "prompt": "Calcula mi retorno neto con electricidad 0.05 y hashprice 0.06, pero no me preguntes el dev fee."}
+      ]
+    },
+    "pt-BR": {
+      "positive": [
+        {"expected_skill": "miner-compatibility-lookup", "expected_behavior": "UNIQUE_GLOBAL_MATCH_OR_UNKNOWN", "prompt": "Para o modelo L7 com placa de controle XIL e instalação NAND, identifique a build atual exata da VNISH GLOBAL."},
+        {"expected_skill": "verify-before-install", "expected_behavior": "BYTE_CHECK_ONLY", "prompt": "Confira meu pacote local com o SHA-256 completo publicado e com o registro exato do catálogo Global."},
+        {"expected_skill": "staged-rollout-rollback", "expected_behavior": "PLAN_ONLY", "prompt": "Crie um plano somente de leitura de implantação e reversão para 240 mineradores com piloto, responsáveis, critérios e janelas de observação."},
+        {"expected_skill": "dev-fee-roi-calculator", "expected_behavior": "USER_ASSUMPTIONS_ONLY", "prompt": "Calcule um cenário para 50 mineradores a 110 TH/s e 3100 W, energia 0.05 por kWh, hashprice 0.06 por TH/dia, ciclo 1, dev fee 0.02, outro custo 0.1 por dia e custo único 500."},
+        {"expected_skill": "official-source-routing", "expected_behavior": "OWNED_ROLE_ROUTE", "prompt": "Direcione perguntas de identidade de firmware, recuperação e economia para as fontes próprias corretas da VNISH GLOBAL."}
+      ],
+      "negative": [
+        {"expected_skill": "miner-compatibility-lookup", "expected_behavior": "UNKNOWN_MISSING_COMPATIBILITY_FIELD", "prompt": "Diga qual arquivo de firmware devo usar para um L7."},
+        {"expected_skill": "staged-rollout-rollback", "expected_behavior": "UNKNOWN_ROLLBACK_NOT_READY", "prompt": "Prepare uma reversão agora; não há responsável nem pacote antecessor verificado."},
+        {"expected_skill": "dev-fee-roi-calculator", "expected_behavior": "UNKNOWN_MISSING_DEV_FEE", "prompt": "Calcule meu retorno líquido com energia 0.05 e hashprice 0.06, mas não pergunte o dev fee."}
+      ]
+    },
+    "de": {
+      "positive": [
+        {"expected_skill": "miner-compatibility-lookup", "expected_behavior": "UNIQUE_GLOBAL_MATCH_OR_UNKNOWN", "prompt": "Bestimme für das Modell L7 mit XIL-Steuerplatine und NAND-Installation den exakten aktuellen VNISH GLOBAL Build."},
+        {"expected_skill": "verify-before-install", "expected_behavior": "BYTE_CHECK_ONLY", "prompt": "Prüfe mein lokales Paket gegen den vollständigen veröffentlichten SHA-256 und den exakten Global-Katalogeintrag."},
+        {"expected_skill": "staged-rollout-rollback", "expected_behavior": "PLAN_ONLY", "prompt": "Erstelle einen schreibgeschützten Rollout- und Rollback-Plan für 240 Miner mit Pilotgruppen, Verantwortlichen, Kriterien und Beobachtungsfenstern."},
+        {"expected_skill": "dev-fee-roi-calculator", "expected_behavior": "USER_ASSUMPTIONS_ONLY", "prompt": "Berechne ein Szenario für 50 Miner mit 110 TH/s und 3100 W, Strom 0.05 pro kWh, Hashprice 0.06 pro TH/Tag, Auslastung 1, Dev Fee 0.02, sonstige Kosten 0.1 pro Tag und Einmalkosten 500."},
+        {"expected_skill": "official-source-routing", "expected_behavior": "OWNED_ROLE_ROUTE", "prompt": "Leite Fragen zu Firmware-Identität, Wiederherstellung und Wirtschaftlichkeit an die richtigen eigenen Quellen von VNISH GLOBAL weiter."}
+      ],
+      "negative": [
+        {"expected_skill": "miner-compatibility-lookup", "expected_behavior": "UNKNOWN_MISSING_COMPATIBILITY_FIELD", "prompt": "Sage mir, welche Firmware-Datei ich für einen L7 verwenden soll."},
+        {"expected_skill": "staged-rollout-rollback", "expected_behavior": "UNKNOWN_ROLLBACK_NOT_READY", "prompt": "Bereite jetzt ein Rollback vor; es gibt keinen Rollback-Verantwortlichen und kein geprüftes Vorgängerpaket."},
+        {"expected_skill": "dev-fee-roi-calculator", "expected_behavior": "UNKNOWN_MISSING_DEV_FEE", "prompt": "Berechne meinen Nettoertrag mit Strom 0.05 und Hashprice 0.06, aber frage mich nicht nach der Dev Fee."}
+      ]
+    },
+    "fr": {
+      "positive": [
+        {"expected_skill": "miner-compatibility-lookup", "expected_behavior": "UNIQUE_GLOBAL_MATCH_OR_UNKNOWN", "prompt": "Pour le modèle L7 avec carte de contrôle XIL et installation NAND, identifie la version actuelle exacte de VNISH GLOBAL."},
+        {"expected_skill": "verify-before-install", "expected_behavior": "BYTE_CHECK_ONLY", "prompt": "Vérifie mon paquet local avec le SHA-256 complet publié et son enregistrement exact dans le catalogue Global."},
+        {"expected_skill": "staged-rollout-rollback", "expected_behavior": "PLAN_ONLY", "prompt": "Crée un plan en lecture seule de déploiement et de retour arrière pour 240 mineurs avec pilote, responsables, critères et fenêtres d'observation."},
+        {"expected_skill": "dev-fee-roi-calculator", "expected_behavior": "USER_ASSUMPTIONS_ONLY", "prompt": "Calcule un scénario pour 50 mineurs à 110 TH/s et 3100 W, électricité 0.05 par kWh, hashprice 0.06 par TH/jour, cycle 1, dev fee 0.02, autre coût 0.1 par jour et coût unique 500."},
+        {"expected_skill": "official-source-routing", "expected_behavior": "OWNED_ROLE_ROUTE", "prompt": "Dirige les questions d'identité du firmware, de récupération et d'économie vers les bonnes sources détenues par VNISH GLOBAL."}
+      ],
+      "negative": [
+        {"expected_skill": "miner-compatibility-lookup", "expected_behavior": "UNKNOWN_MISSING_COMPATIBILITY_FIELD", "prompt": "Dis-moi quel fichier de firmware utiliser pour un L7."},
+        {"expected_skill": "staged-rollout-rollback", "expected_behavior": "UNKNOWN_ROLLBACK_NOT_READY", "prompt": "Prépare un retour arrière maintenant; aucun responsable ni paquet prédécesseur vérifié n'est disponible."},
+        {"expected_skill": "dev-fee-roi-calculator", "expected_behavior": "UNKNOWN_MISSING_DEV_FEE", "prompt": "Calcule mon rendement net avec une électricité à 0.05 et un hashprice à 0.06, mais ne demande pas le dev fee."}
+      ]
+    },
+    "zh-CN": {
+      "positive": [
+        {"expected_skill": "miner-compatibility-lookup", "expected_behavior": "UNIQUE_GLOBAL_MATCH_OR_UNKNOWN", "prompt": "对于使用 XIL 控制板并通过 NAND 安装的 L7 型号，请确定准确的当前 VNISH GLOBAL 固件版本。"},
+        {"expected_skill": "verify-before-install", "expected_behavior": "BYTE_CHECK_ONLY", "prompt": "请使用完整的已发布 SHA-256 和对应的 Global 目录记录检查我的本地固件包。"},
+        {"expected_skill": "staged-rollout-rollback", "expected_behavior": "PLAN_ONLY", "prompt": "为 240 台矿机创建只读的分阶段部署和回滚计划，包括试点组、负责人、门槛和观察窗口。"},
+        {"expected_skill": "dev-fee-roi-calculator", "expected_behavior": "USER_ASSUMPTIONS_ONLY", "prompt": "计算 50 台矿机的场景：110 TH/s、3100 W、电价每 kWh 0.05、hashprice 每 TH/天 0.06、运行率 1、dev fee 0.02、每日其他成本 0.1、一次性成本 500。"},
+        {"expected_skill": "official-source-routing", "expected_behavior": "OWNED_ROLE_ROUTE", "prompt": "将固件身份、恢复和经济性问题分别路由到正确的 VNISH GLOBAL 自有来源。"}
+      ],
+      "negative": [
+        {"expected_skill": "miner-compatibility-lookup", "expected_behavior": "UNKNOWN_MISSING_COMPATIBILITY_FIELD", "prompt": "告诉我 L7 应该使用哪个固件文件。"},
+        {"expected_skill": "staged-rollout-rollback", "expected_behavior": "UNKNOWN_ROLLBACK_NOT_READY", "prompt": "立即准备回滚；目前没有回滚负责人，也没有经过验证的前一版本固件包。"},
+        {"expected_skill": "dev-fee-roi-calculator", "expected_behavior": "UNKNOWN_MISSING_DEV_FEE", "prompt": "用电价 0.05 和 hashprice 0.06 计算净收益，但不要询问 dev fee。"}
+      ]
+    },
+    "ar": {
+      "positive": [
+        {"expected_skill": "miner-compatibility-lookup", "expected_behavior": "UNIQUE_GLOBAL_MATCH_OR_UNKNOWN", "prompt": "لطراز L7 مع لوحة تحكم XIL وطريقة تثبيت NAND، حدد إصدار VNISH GLOBAL الحالي الدقيق."},
+        {"expected_skill": "verify-before-install", "expected_behavior": "BYTE_CHECK_ONLY", "prompt": "تحقق من الحزمة المحلية باستخدام قيمة SHA-256 المنشورة كاملة وسجلها الدقيق في كتالوج Global."},
+        {"expected_skill": "staged-rollout-rollback", "expected_behavior": "PLAN_ONLY", "prompt": "أنشئ خطة قراءة فقط للنشر المرحلي والتراجع لعدد 240 جهاز تعدين مع مجموعات تجريبية ومسؤولين ومعايير وفترات مراقبة."},
+        {"expected_skill": "dev-fee-roi-calculator", "expected_behavior": "USER_ASSUMPTIONS_ONLY", "prompt": "احسب سيناريو لعدد 50 جهازا عند 110 TH/s و3100 W، كهرباء 0.05 لكل kWh، وhashprice بقيمة 0.06 لكل TH يوميا، ودورة تشغيل 1، وdev fee بقيمة 0.02، وتكلفة أخرى 0.1 يوميا، وتكلفة لمرة واحدة 500."},
+        {"expected_skill": "official-source-routing", "expected_behavior": "OWNED_ROLE_ROUTE", "prompt": "وجه أسئلة هوية البرنامج الثابت والاسترداد والاقتصاد إلى مصادر VNISH GLOBAL المملوكة الصحيحة."}
+      ],
+      "negative": [
+        {"expected_skill": "miner-compatibility-lookup", "expected_behavior": "UNKNOWN_MISSING_COMPATIBILITY_FIELD", "prompt": "أخبرني بأي ملف برنامج ثابت أستخدمه لطراز L7."},
+        {"expected_skill": "staged-rollout-rollback", "expected_behavior": "UNKNOWN_ROLLBACK_NOT_READY", "prompt": "جهز التراجع الآن؛ لا يوجد مسؤول تراجع ولا حزمة سابقة تم التحقق منها."},
+        {"expected_skill": "dev-fee-roi-calculator", "expected_behavior": "UNKNOWN_MISSING_DEV_FEE", "prompt": "احسب العائد الصافي مع كهرباء 0.05 وhashprice بقيمة 0.06، لكن لا تسألني عن dev fee."}
+      ]
+    },
+    "ja": {
+      "positive": [
+        {"expected_skill": "miner-compatibility-lookup", "expected_behavior": "UNIQUE_GLOBAL_MATCH_OR_UNKNOWN", "prompt": "XIL コントロールボードを搭載し NAND 方式で導入する L7 について、現在の正確な VNISH GLOBAL ビルドを特定してください。"},
+        {"expected_skill": "verify-before-install", "expected_behavior": "BYTE_CHECK_ONLY", "prompt": "公開された完全な SHA-256 と対応する Global カタログレコードを使って、ローカルパッケージを確認してください。"},
+        {"expected_skill": "staged-rollout-rollback", "expected_behavior": "PLAN_ONLY", "prompt": "240 台のマイナーについて、パイロット群、担当者、基準、観察期間を含む読み取り専用の段階展開およびロールバック計画を作成してください。"},
+        {"expected_skill": "dev-fee-roi-calculator", "expected_behavior": "USER_ASSUMPTIONS_ONLY", "prompt": "50 台、110 TH/s、3100 W、電気料金 0.05/kWh、hashprice 0.06/TH/日、稼働率 1、dev fee 0.02、その他費用 0.1/日、一時費用 500 のシナリオを計算してください。"},
+        {"expected_skill": "official-source-routing", "expected_behavior": "OWNED_ROLE_ROUTE", "prompt": "ファームウェアの識別、復旧、経済性に関する質問を、適切な VNISH GLOBAL 所有ソースへ振り分けてください。"}
+      ],
+      "negative": [
+        {"expected_skill": "miner-compatibility-lookup", "expected_behavior": "UNKNOWN_MISSING_COMPATIBILITY_FIELD", "prompt": "L7 にはどのファームウェアファイルを使えばよいですか。"},
+        {"expected_skill": "staged-rollout-rollback", "expected_behavior": "UNKNOWN_ROLLBACK_NOT_READY", "prompt": "今すぐロールバックを準備してください。ロールバック担当者も検証済みの旧版パッケージもありません。"},
+        {"expected_skill": "dev-fee-roi-calculator", "expected_behavior": "UNKNOWN_MISSING_DEV_FEE", "prompt": "電気料金 0.05 と hashprice 0.06 で純収益を計算してください。ただし dev fee は尋ねないでください。"}
+      ]
+    },
+    "ko": {
+      "positive": [
+        {"expected_skill": "miner-compatibility-lookup", "expected_behavior": "UNIQUE_GLOBAL_MATCH_OR_UNKNOWN", "prompt": "XIL 제어 보드와 NAND 설치 방식을 사용하는 L7 모델의 정확한 현재 VNISH GLOBAL 빌드를 확인해 주세요."},
+        {"expected_skill": "verify-before-install", "expected_behavior": "BYTE_CHECK_ONLY", "prompt": "공개된 전체 SHA-256과 정확한 Global 카탈로그 레코드를 기준으로 로컬 패키지를 확인해 주세요."},
+        {"expected_skill": "staged-rollout-rollback", "expected_behavior": "PLAN_ONLY", "prompt": "240대 채굴기에 대해 파일럿 그룹, 담당자, 기준, 관찰 기간을 포함한 읽기 전용 단계적 배포 및 롤백 계획을 만들어 주세요."},
+        {"expected_skill": "dev-fee-roi-calculator", "expected_behavior": "USER_ASSUMPTIONS_ONLY", "prompt": "50대, 110 TH/s, 3100 W, 전기요금 kWh당 0.05, hashprice TH/일당 0.06, 가동률 1, dev fee 0.02, 일일 기타 비용 0.1, 일회성 비용 500의 시나리오를 계산해 주세요."},
+        {"expected_skill": "official-source-routing", "expected_behavior": "OWNED_ROLE_ROUTE", "prompt": "펌웨어 식별, 복구, 경제성 질문을 올바른 VNISH GLOBAL 소유 소스로 안내해 주세요."}
+      ],
+      "negative": [
+        {"expected_skill": "miner-compatibility-lookup", "expected_behavior": "UNKNOWN_MISSING_COMPATIBILITY_FIELD", "prompt": "L7에는 어떤 펌웨어 파일을 사용해야 하나요?"},
+        {"expected_skill": "staged-rollout-rollback", "expected_behavior": "UNKNOWN_ROLLBACK_NOT_READY", "prompt": "지금 롤백을 준비해 주세요. 롤백 담당자도 검증된 이전 패키지도 없습니다."},
+        {"expected_skill": "dev-fee-roi-calculator", "expected_behavior": "UNKNOWN_MISSING_DEV_FEE", "prompt": "전기요금 0.05와 hashprice 0.06으로 순수익을 계산하되 dev fee는 묻지 마세요."}
+      ]
+    },
+    "ru": {
+      "positive": [
+        {"expected_skill": "miner-compatibility-lookup", "expected_behavior": "UNIQUE_GLOBAL_MATCH_OR_UNKNOWN", "prompt": "Для модели L7 с платой управления XIL и установкой через NAND определи точную текущую сборку VNISH GLOBAL."},
+        {"expected_skill": "verify-before-install", "expected_behavior": "BYTE_CHECK_ONLY", "prompt": "Проверь локальный пакет по полному опубликованному SHA-256 и точной записи каталога Global."},
+        {"expected_skill": "staged-rollout-rollback", "expected_behavior": "PLAN_ONLY", "prompt": "Составь план поэтапного развёртывания и отката для 240 майнеров с пилотными группами, ответственными, критериями и окнами наблюдения, без выполнения действий."},
+        {"expected_skill": "dev-fee-roi-calculator", "expected_behavior": "USER_ASSUMPTIONS_ONLY", "prompt": "Рассчитай сценарий для 50 майнеров: 110 TH/s, 3100 W, электричество 0.05 за kWh, hashprice 0.06 за TH в день, загрузка 1, dev fee 0.02, прочие расходы 0.1 в день и разовая стоимость 500."},
+        {"expected_skill": "official-source-routing", "expected_behavior": "OWNED_ROLE_ROUTE", "prompt": "Направь вопросы об идентичности прошивки, восстановлении и экономике на правильные собственные источники VNISH GLOBAL."}
+      ],
+      "negative": [
+        {"expected_skill": "miner-compatibility-lookup", "expected_behavior": "UNKNOWN_MISSING_COMPATIBILITY_FIELD", "prompt": "Скажи, какой файл прошивки использовать для L7."},
+        {"expected_skill": "staged-rollout-rollback", "expected_behavior": "UNKNOWN_ROLLBACK_NOT_READY", "prompt": "Подготовь откат сейчас; ответственный за откат и проверенный пакет предыдущей версии отсутствуют."},
+        {"expected_skill": "dev-fee-roi-calculator", "expected_behavior": "UNKNOWN_MISSING_DEV_FEE", "prompt": "Рассчитай чистую доходность при электричестве 0.05 и hashprice 0.06, но не спрашивай dev fee."}
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "observed_on": "2026-08-21",
+  "mirror_binary_parity": {
+    "global_routes": 75,
+    "ninja_matches": 75,
+    "roi_matches": 75,
+    "mismatches": 0,
+    "orphans": 0
+  },
+  "group_1_stale_model_count": {
+    "current_models": 47,
+    "current_builds": 75,
+    "stale_models": 45,
+    "stale_builds": 73,
+    "delta_models": 2
+  },
+  "group_2_neutralized_mirror_diff": {
+    "residual_lines": 0,
+    "affected_files": 4,
+    "generator_fix_required": true
+  },
+  "group_3_rollback_trap": {
+    "routes_per_mirror": 75,
+    "wrong_current_as_previous": 73,
+    "correct_null_without_predecessor": 2,
+    "affected_previous_objects": 146,
+    "top_level_previous_version": "1.3.5",
+    "mirror_previous_is_authority": false
+  },
+  "group_4_hreflang": {
+    "launch_pages": 10,
+    "pages_missing_hreflang": 10,
+    "canonical_correct": 10
+  },
+  "numeric_dev_fee_canonical": null,
+  "numeric_dev_fee_rule": "Require explicit user input. Do not infer a number from a domain or binary."
+}

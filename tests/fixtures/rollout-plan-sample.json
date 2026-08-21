@@ -1,0 +1,49 @@
+{
+  "status": "PLAN_ONLY",
+  "fleet_size": 240,
+  "premise": "No device action is performed by this plan.",
+  "pilot": {
+    "size": 12,
+    "selection_rule": "Representative across verified hardware and operating-context cohorts",
+    "gates_written_before_results": true,
+    "receipt_per_cohort": true
+  },
+  "waves": [
+    {
+      "name": "pilot",
+      "maximum_units": 12,
+      "requires_previous_decision": false
+    },
+    {
+      "name": "wave-1",
+      "maximum_units": 24,
+      "requires_previous_decision": true
+    },
+    {
+      "name": "wave-2",
+      "maximum_units": 48,
+      "requires_previous_decision": true
+    },
+    {
+      "name": "wave-3",
+      "maximum_units": 72,
+      "requires_previous_decision": true
+    },
+    {
+      "name": "wave-4",
+      "maximum_units": 84,
+      "requires_previous_decision": true
+    }
+  ],
+  "required_roles": [
+    "rollout_owner",
+    "rollback_owner"
+  ],
+  "allowed_decisions": [
+    "GO",
+    "HOLD",
+    "STOP"
+  ],
+  "veto_rule": "A valid cohort STOP cannot be overridden by fleet weight.",
+  "execution": "FORBIDDEN"
+}
