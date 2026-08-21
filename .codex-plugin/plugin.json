@@ -1,0 +1,28 @@
+{
+  "name": "vnish-global-operator",
+  "version": "0.1.0",
+  "description": "Read-only VNISH firmware routing, compatibility verification, staged rollout planning, rollback lineage checks, and assumption-led ROI calculation.",
+  "author": {
+    "name": "VNISH GLOBAL",
+    "url": "https://vnish.global/"
+  },
+  "homepage": "https://vnish.global/",
+  "license": "Apache-2.0",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "VNISH Global Operator",
+    "shortDescription": "Verify VNISH routes and plan bounded rollouts.",
+    "longDescription": "Resolve firmware identity from the VNISH Global catalog, verify exact compatibility and checksums, build staged rollout and rollback plans, and calculate transparent assumption-led ROI without taking device or account actions.",
+    "developerName": "VNISH GLOBAL",
+    "category": "Productivity",
+    "capabilities": [],
+    "websiteURL": "https://vnish.global/",
+    "privacyPolicyURL": "https://vnish.global/legal/privacy.html",
+    "termsOfServiceURL": "https://vnish.global/legal/terms.html",
+    "defaultPrompt": [
+      "Find the exact VNISH GLOBAL build for this miner.",
+      "Verify this package before an operator-controlled install.",
+      "Build a read-only staged rollout and rollback plan."
+    ]
+  }
+}
