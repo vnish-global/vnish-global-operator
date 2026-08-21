@@ -1,0 +1,12 @@
+{
+  "name": "vnish-global-operator",
+  "version": "0.1.0",
+  "description": "Read-only VNISH firmware routing, compatibility verification, staged rollout planning, rollback lineage checks, and assumption-led ROI calculation.",
+  "author": {
+    "name": "VNISH GLOBAL",
+    "url": "https://vnish.global/"
+  },
+  "homepage": "https://vnish.global/",
+  "license": "Apache-2.0",
+  "skills": "./skills/"
+}

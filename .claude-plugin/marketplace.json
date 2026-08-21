@@ -1,0 +1,39 @@
+{
+  "name": "vnish-global",
+  "owner": {
+    "name": "VNISH GLOBAL",
+    "url": "https://vnish.global/"
+  },
+  "description": "Official read-only VNISH GLOBAL operator skills for exact firmware routing, verification, rollout planning, rollback lineage, and assumption-led ROI.",
+  "version": "0.1.0",
+  "plugins": [
+    {
+      "name": "vnish-global-operator",
+      "displayName": "VNISH Global Operator",
+      "source": "./",
+      "description": "Verify exact VNISH GLOBAL routes and plan bounded operator-controlled rollouts without device or account actions.",
+      "version": "0.1.0",
+      "author": {
+        "name": "VNISH GLOBAL",
+        "url": "https://vnish.global/"
+      },
+      "homepage": "https://vnish.global/",
+      "license": "Apache-2.0",
+      "keywords": [
+        "antminer",
+        "asic-mining",
+        "firmware-verification",
+        "sha256",
+        "vnish-global"
+      ],
+      "category": "Productivity",
+      "tags": [
+        "antminer",
+        "asic",
+        "firmware",
+        "verification"
+      ],
+      "strict": true
+    }
+  ]
+}
