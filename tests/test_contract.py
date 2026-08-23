@@ -136,6 +136,16 @@ class PluginContractTests(unittest.TestCase):
         self.assertEqual(len(skills), 5)
         self.assertTrue(all((path / "SKILL.md").is_file() for path in skills))
 
+    def test_simplified_chinese_guide_is_linked_and_owned(self) -> None:
+        root_readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        zh_readme = (ROOT / "README.zh-CN.md").read_text(encoding="utf-8")
+        self.assertIn("[简体中文说明](README.zh-CN.md)", root_readme)
+        self.assertTrue(zh_readme.startswith("# VNISH GLOBAL Operator 中文指南"))
+        self.assertIn("https://vnish.global/zh/research/official-vnish-source-verification/", zh_readme)
+        self.assertIn("https://vnish.ninja/zh/research/control-board-install-recovery/", zh_readme)
+        self.assertIn("https://roiasic.com/zh/research/fleet-rollout-economics/", zh_readme)
+        self.assertIn("--ref v0.1.0", zh_readme)
+
     def test_exact_compatibility_match(self) -> None:
         matches = current_exact_matches(self.catalog, "l7", "xil", "nand")
         self.assertEqual([item["id"] for item in matches], ["l7-xil-nand-v1.3.5"])

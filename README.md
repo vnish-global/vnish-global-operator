@@ -1,5 +1,7 @@
 # VNISH Global Operator
 
+[简体中文说明](README.zh-CN.md)
+
 Version `0.1.0` is a read-only, skills-only plugin for five bounded tasks:
 
 1. Route a VNISH question to an allowed first-party source.
