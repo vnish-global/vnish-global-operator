@@ -11,6 +11,9 @@ from urllib.parse import urlsplit
 
 
 ALLOWED_HOSTS = {"vnish.global", "vnish.ninja", "roiasic.com"}
+ALLOWED_DEVELOPER_INSTALL_URLS = {
+    "https://github.com/vnish-global/vnish-global-operator:vnish-global-operator",
+}
 EXPECTED_SKILLS = {
     "official-source-routing",
     "miner-compatibility-lookup",
@@ -48,7 +51,8 @@ def validate_url(raw: str, source: Path, errors: list[str]) -> None:
     parts = urlsplit(url)
     if parts.scheme != "https":
         fail(errors, f"non-HTTPS URL in {source}: {url}")
-    if parts.hostname not in ALLOWED_HOSTS:
+    is_exact_developer_install = source.name == "README.zh-CN.md" and url in ALLOWED_DEVELOPER_INSTALL_URLS
+    if parts.hostname not in ALLOWED_HOSTS and not is_exact_developer_install:
         fail(errors, f"unapproved host in {source}: {url}")
     if parts.username or parts.password:
         fail(errors, f"embedded credentials in {source}: {url}")
@@ -98,6 +102,7 @@ def validate(root: Path) -> list[str]:
         ".claude-plugin/plugin.json",
         ".claude-plugin/marketplace.json",
         "README.md",
+        "README.zh-CN.md",
         "LICENSE",
         "NOTICE",
         "references/source-of-truth-contract.json",
@@ -207,19 +212,38 @@ def validate(root: Path) -> list[str]:
             or relative.startswith(".claude-plugin/")
             or relative.startswith("skills/")
             or relative.startswith("references/")
-            or relative == "README.md"
+            or relative in {"README.md", "README.zh-CN.md"}
         )
         if url_scoped:
             for raw in URL_RE.findall(text):
                 validate_url(raw, source, errors)
 
-        if relative.startswith("skills/") or relative == "README.md":
+        if relative.startswith("skills/") or relative in {"README.md", "README.zh-CN.md"}:
             if HEX_FRAGMENT_RE.search(text):
                 fail(errors, f"truncated hash-like fragment in public instruction: {source}")
             lowered = text.lower()
             for marker in ("mailto:", "tel:", "@gmail.", "@outlook.", "twitter.com/", "x.com/", "linkedin.com/", "t.me/"):
                 if marker in lowered:
                     fail(errors, f"contact or social marker in public instruction: {source}")
+
+    try:
+        root_readme = (root / "README.md").read_text(encoding="utf-8")
+        zh_readme = (root / "README.zh-CN.md").read_text(encoding="utf-8")
+        if "[简体中文说明](README.zh-CN.md)" not in root_readme:
+            fail(errors, "root README does not link the Simplified Chinese guide")
+        if not zh_readme.startswith("# VNISH GLOBAL Operator 中文指南"):
+            fail(errors, "Simplified Chinese guide identity drift")
+        for required_url in (
+            "https://vnish.global/zh/research/official-vnish-source-verification/",
+            "https://vnish.ninja/zh/research/control-board-install-recovery/",
+            "https://roiasic.com/zh/research/fleet-rollout-economics/",
+        ):
+            if required_url not in zh_readme:
+                fail(errors, f"Simplified Chinese guide missing owned destination: {required_url}")
+        if "--ref v0.1.0" not in zh_readme:
+            fail(errors, "Qwen installation is not pinned to release v0.1.0")
+    except OSError as exc:
+        fail(errors, f"invalid Simplified Chinese guide: {exc}")
 
     try:
         contract = json.loads((root / "references/source-of-truth-contract.json").read_text(encoding="utf-8"))
