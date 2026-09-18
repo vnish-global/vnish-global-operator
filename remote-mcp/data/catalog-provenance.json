@@ -1,0 +1,14 @@
+{
+  "source_url": "https://vnish.global/api/v1/firmware-catalog.json",
+  "retrieved_at": "2026-09-17T19:50:51.904259+00:00",
+  "http_status": 200,
+  "sha256": "6d1ee1f6d3c91d818bfa2a7748b01c5bee78712eb5ab9660bfe9af691f0c3c56",
+  "counts": {
+    "models": 47,
+    "builds": 148,
+    "builds_by_version": {
+      "1.3.5": 75,
+      "1.3.4": 73
+    }
+  }
+}

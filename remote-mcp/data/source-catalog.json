@@ -1,0 +1,3379 @@
+{
+ "schema_version": "2.0",
+ "product": "VNISH Firmware",
+ "versions": [
+  "1.3.5",
+  "1.3.4"
+ ],
+ "default_version": "1.3.5",
+ "channels": [
+  "stable"
+ ],
+ "counts": {
+  "models": 47,
+  "builds": 148,
+  "builds_by_version": {
+   "1.3.5": 75,
+   "1.3.4": 73
+  }
+ },
+ "models": [
+  {
+   "id": "l7",
+   "manufacturer": "Bitmain",
+   "series": "l7",
+   "name": "Antminer L7",
+   "build_ids": [
+    "l7-xil-nand-v1.3.4",
+    "l7-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "l7-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "l9",
+   "manufacturer": "Bitmain",
+   "series": "l9",
+   "name": "Antminer L9",
+   "build_ids": [
+    "l9-aml-nand-v1.3.4",
+    "l9-cv-nand-v1.3.4",
+    "l9-cv-nand-v1.3.5",
+    "l9-aml-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "l9-cv-nand-v1.3.5",
+    "l9-aml-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19",
+   "build_ids": [
+    "s19-xil-nand-v1.3.4",
+    "s19-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19-126",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19 (126)",
+   "build_ids": [
+    "s19-126-aml-nand-v1.3.4",
+    "s19-126-cv-nand-v1.3.4",
+    "s19-126-aml-nand-v1.3.5",
+    "s19-126-cv-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19-126-aml-nand-v1.3.5",
+    "s19-126-cv-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19-88",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19 (88)",
+   "build_ids": [
+    "s19-88-aml-nand-v1.3.4",
+    "s19-88-bb-nand-v1.3.4",
+    "s19-88-cv-nand-v1.3.4",
+    "s19-88-xil-nand-v1.3.4",
+    "s19-88-xil-nand-v1.3.5",
+    "s19-88-bb-nand-v1.3.5",
+    "s19-88-aml-nand-v1.3.5",
+    "s19-88-cv-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19-88-xil-nand-v1.3.5",
+    "s19-88-bb-nand-v1.3.5",
+    "s19-88-aml-nand-v1.3.5",
+    "s19-88-cv-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19-hydro",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19 Hydro",
+   "build_ids": [
+    "s19-hydro-xil-nand-v1.3.4",
+    "s19-hydro-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19-hydro-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19a",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19a",
+   "build_ids": [
+    "s19a-xil-nand-v1.3.4",
+    "s19a-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19a-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19apro",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19A Pro",
+   "build_ids": [
+    "s19apro-xil-nand-v1.3.4",
+    "s19apro-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19apro-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19e-xp-hydro",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19e XP Hydro",
+   "build_ids": [
+    "s19e-xp-hydro-xil-nand-v1.3.4",
+    "s19e-xp-hydro-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19e-xp-hydro-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19i",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19i",
+   "build_ids": [
+    "s19i-xil-nand-v1.3.4",
+    "s19i-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19i-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19j",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19j",
+   "build_ids": [
+    "s19j-bb-nand-v1.3.4",
+    "s19j-cv-nand-v1.3.4",
+    "s19j-xil-nand-v1.3.4",
+    "s19j-xil-nand-v1.3.5",
+    "s19j-cv-nand-v1.3.5",
+    "s19j-bb-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19j-xil-nand-v1.3.5",
+    "s19j-cv-nand-v1.3.5",
+    "s19j-bb-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19j-plus",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19j+",
+   "build_ids": [
+    "s19j-plus-aml-nand-v1.3.4",
+    "s19j-plus-bb-nand-v1.3.4",
+    "s19j-plus-cv-nand-v1.3.4",
+    "s19j-plus-xil-nand-v1.3.4",
+    "s19j-plus-aml-nand-v1.3.5",
+    "s19j-plus-xil-nand-v1.3.5",
+    "s19j-plus-bb-nand-v1.3.5",
+    "s19j-plus-cv-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19j-plus-aml-nand-v1.3.5",
+    "s19j-plus-xil-nand-v1.3.5",
+    "s19j-plus-bb-nand-v1.3.5",
+    "s19j-plus-cv-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19j-xp",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19j XP",
+   "build_ids": [
+    "s19j-xp-aml-nand-v1.3.4",
+    "s19j-xp-cv-nand-v1.3.4",
+    "s19j-xp-xil-nand-v1.3.4",
+    "s19j-xp-aml-nand-v1.3.5",
+    "s19j-xp-xil-nand-v1.3.5",
+    "s19j-xp-cv-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19j-xp-aml-nand-v1.3.5",
+    "s19j-xp-xil-nand-v1.3.5",
+    "s19j-xp-cv-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19jpro",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19j Pro",
+   "build_ids": [
+    "s19jpro-aml-nand-v1.3.4",
+    "s19jpro-bb-nand-v1.3.4",
+    "s19jpro-cv-nand-v1.3.4",
+    "s19jpro-xil-nand-v1.3.4",
+    "s19jpro-cv-nand-v1.3.5",
+    "s19jpro-bb-nand-v1.3.5",
+    "s19jpro-xil-nand-v1.3.5",
+    "s19jpro-aml-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19jpro-cv-nand-v1.3.5",
+    "s19jpro-bb-nand-v1.3.5",
+    "s19jpro-xil-nand-v1.3.5",
+    "s19jpro-aml-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19jpro-a",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19j Pro A",
+   "build_ids": [
+    "s19jpro-a-aml-nand-v1.3.4",
+    "s19jpro-a-bb-nand-v1.3.4",
+    "s19jpro-a-cv-nand-v1.3.4",
+    "s19jpro-a-cv-nand-v1.3.5",
+    "s19jpro-a-aml-nand-v1.3.5",
+    "s19jpro-a-bb-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19jpro-a-cv-nand-v1.3.5",
+    "s19jpro-a-aml-nand-v1.3.5",
+    "s19jpro-a-bb-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19jpro-plus",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19j Pro+",
+   "build_ids": [
+    "s19jpro-plus-aml-nand-v1.3.4",
+    "s19jpro-plus-bb-nand-v1.3.4",
+    "s19jpro-plus-cv-nand-v1.3.4",
+    "s19jpro-plus-xil-nand-v1.3.4",
+    "s19jpro-plus-bb-nand-v1.3.5",
+    "s19jpro-plus-aml-nand-v1.3.5",
+    "s19jpro-plus-cv-nand-v1.3.5",
+    "s19jpro-plus-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19jpro-plus-bb-nand-v1.3.5",
+    "s19jpro-plus-aml-nand-v1.3.5",
+    "s19jpro-plus-cv-nand-v1.3.5",
+    "s19jpro-plus-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19kpro",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19k Pro",
+   "build_ids": [
+    "s19kpro-aml-nand-v1.3.4",
+    "s19kpro-cv-nand-v1.3.4",
+    "s19kpro-xil-nand-v1.3.4",
+    "s19kpro-aml-nand-v1.3.5",
+    "s19kpro-cv-nand-v1.3.5",
+    "s19kpro-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19kpro-aml-nand-v1.3.5",
+    "s19kpro-cv-nand-v1.3.5",
+    "s19kpro-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19plus",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19+",
+   "build_ids": [
+    "s19plus-xil-nand-v1.3.4",
+    "s19plus-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19plus-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19pro",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19 Pro",
+   "build_ids": [
+    "s19pro-xil-nand-v1.3.4",
+    "s19pro-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19pro-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19pro-a",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19 Pro-A",
+   "build_ids": [
+    "s19pro-a-xil-nand-v1.3.4",
+    "s19pro-a-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19pro-a-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19pro-hydro",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19 Pro Hydro",
+   "build_ids": [
+    "s19pro-hydro-xil-nand-v1.3.4",
+    "s19pro-hydro-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19pro-hydro-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19pro-hydro-120",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19 Pro Hydro (120)",
+   "build_ids": [
+    "s19pro-hydro-120-xil-nand-v1.3.4",
+    "s19pro-hydro-120-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19pro-hydro-120-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19pro-plus-hydro",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19 Pro+ Hydro",
+   "build_ids": [
+    "s19pro-plus-hydro-xil-nand-v1.3.4",
+    "s19pro-plus-hydro-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19pro-plus-hydro-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19xp",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19 XP",
+   "build_ids": [
+    "s19xp-aml-nand-v1.3.4",
+    "s19xp-cv-nand-v1.3.4",
+    "s19xp-xil-nand-v1.3.4",
+    "s19xp-aml-nand-v1.3.5",
+    "s19xp-cv-nand-v1.3.5",
+    "s19xp-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19xp-aml-nand-v1.3.5",
+    "s19xp-cv-nand-v1.3.5",
+    "s19xp-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19xp-hydro",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19 XP Hydro",
+   "build_ids": [
+    "s19xp-hydro-xil-nand-v1.3.4",
+    "s19xp-hydro-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19xp-hydro-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19xp-plus",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19 XP+",
+   "build_ids": [
+    "s19xp-plus-aml-nand-v1.3.4",
+    "s19xp-plus-aml-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19xp-plus-aml-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s19xp-plus-hydro",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer S19 XP+ Hydro",
+   "build_ids": [
+    "s19xp-plus-hydro-xil-nand-v1.3.4",
+    "s19xp-plus-hydro-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s19xp-plus-hydro-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s21",
+   "manufacturer": "Bitmain",
+   "series": "x21",
+   "name": "Antminer S21",
+   "build_ids": [
+    "s21-aml-nand-v1.3.4",
+    "s21-aml-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s21-aml-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s21-hydro",
+   "manufacturer": "Bitmain",
+   "series": "x21",
+   "name": "Antminer S21 Hydro",
+   "build_ids": [
+    "s21-hydro-xil-nand-v1.3.4",
+    "s21-hydro-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s21-hydro-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s21-imm",
+   "manufacturer": "Bitmain",
+   "series": "x21",
+   "name": "Antminer S21 Imm",
+   "build_ids": [
+    "s21-imm-aml-nand-v1.3.4",
+    "s21-imm-aml-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s21-imm-aml-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s21e-hydro",
+   "manufacturer": "Bitmain",
+   "series": "x21",
+   "name": "Antminer S21e Hydro",
+   "build_ids": [
+    "s21e-hydro-aml-nand-v1.3.4",
+    "s21e-hydro-xil-nand-v1.3.4",
+    "s21e-hydro-aml-nand-v1.3.5",
+    "s21e-hydro-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s21e-hydro-aml-nand-v1.3.5",
+    "s21e-hydro-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s21e-xp-hydro",
+   "manufacturer": "Bitmain",
+   "series": "x21",
+   "name": "Antminer S21e XP Hydro",
+   "build_ids": [
+    "s21e-xp-hydro-xil-nand-v1.3.4",
+    "s21e-xp-hydro-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s21e-xp-hydro-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s21plus",
+   "manufacturer": "Bitmain",
+   "series": "x21",
+   "name": "Antminer S21+",
+   "build_ids": [
+    "s21plus-aml-nand-v1.3.4",
+    "s21plus-aml-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s21plus-aml-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s21plus-hydro",
+   "manufacturer": "Bitmain",
+   "series": "x21",
+   "name": "Antminer S21+ Hydro",
+   "build_ids": [
+    "s21plus-hydro-cv-nand-v1.3.4",
+    "s21plus-hydro-xil-nand-v1.3.4",
+    "s21plus-hydro-cv-nand-v1.3.5",
+    "s21plus-hydro-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s21plus-hydro-cv-nand-v1.3.5",
+    "s21plus-hydro-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s21plus-plus",
+   "manufacturer": "Bitmain",
+   "series": "x21",
+   "name": "Antminer S21++",
+   "build_ids": [
+    "s21plus-plus-aml-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s21plus-plus-aml-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s21pro",
+   "manufacturer": "Bitmain",
+   "series": "x21",
+   "name": "Antminer S21 Pro",
+   "build_ids": [
+    "s21pro-aml-nand-v1.3.4",
+    "s21pro-aml-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s21pro-aml-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s21pro-plus",
+   "manufacturer": "Bitmain",
+   "series": "x21",
+   "name": "Antminer S21 Pro+",
+   "build_ids": [
+    "s21pro-plus-aml-nand-v1.3.4",
+    "s21pro-plus-aml-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s21pro-plus-aml-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s21xp",
+   "manufacturer": "Bitmain",
+   "series": "x21",
+   "name": "Antminer S21 XP",
+   "build_ids": [
+    "s21xp-aml-nand-v1.3.4",
+    "s21xp-aml-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s21xp-aml-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s21xp-hydro",
+   "manufacturer": "Bitmain",
+   "series": "x21",
+   "name": "Antminer S21 XP Hydro",
+   "build_ids": [
+    "s21xp-hydro-xil-nand-v1.3.4",
+    "s21xp-hydro-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s21xp-hydro-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "s21xp-imm",
+   "manufacturer": "Bitmain",
+   "series": "x21",
+   "name": "Antminer S21 XP Imm",
+   "build_ids": [
+    "s21xp-imm-aml-nand-v1.3.4",
+    "s21xp-imm-aml-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "s21xp-imm-aml-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "t19",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer T19",
+   "build_ids": [
+    "t19-xil-nand-v1.3.4",
+    "t19-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "t19-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "t19-hydro",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer T19 Hydro",
+   "build_ids": [
+    "t19-hydro-xil-nand-v1.3.4",
+    "t19-hydro-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "t19-hydro-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "t19pro-hydro",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer T19 Pro Hydro",
+   "build_ids": [
+    "t19pro-hydro-xil-nand-v1.3.4",
+    "t19pro-hydro-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "t19pro-hydro-xil-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "t21",
+   "manufacturer": "Bitmain",
+   "series": "x21",
+   "name": "Antminer T21",
+   "build_ids": [
+    "t21-aml-nand-v1.3.4",
+    "t21-cv-nand-v1.3.4",
+    "t21-xil-nand-v1.3.4",
+    "t21-xil-nand-v1.3.5",
+    "t21-cv-nand-v1.3.5",
+    "t21-aml-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "t21-xil-nand-v1.3.5",
+    "t21-cv-nand-v1.3.5",
+    "t21-aml-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "u2l9h",
+   "manufacturer": "Bitmain",
+   "series": "l9",
+   "name": "Antminer U2L9H",
+   "build_ids": [
+    "u2l9h-aml-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "u2l9h-aml-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "u3s19xph",
+   "manufacturer": "Bitmain",
+   "series": "x19",
+   "name": "Antminer U3S19XP+H",
+   "build_ids": [
+    "u3s19xph-cv-nand-v1.3.4",
+    "u3s19xph-cv-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "u3s19xph-cv-nand-v1.3.5"
+   ]
+  },
+  {
+   "id": "u3s21exph",
+   "manufacturer": "Bitmain",
+   "series": "x21",
+   "name": "Antminer U3S21EXPH",
+   "build_ids": [
+    "u3s21exph-xil-nand-v1.3.4",
+    "u3s21exph-xil-nand-v1.3.5"
+   ],
+   "default_build_ids": [
+    "u3s21exph-xil-nand-v1.3.5"
+   ]
+  }
+ ],
+ "builds": [
+  {
+   "id": "l7-xil-nand-v1.3.4",
+   "model_id": "l7",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16185101,
+   "sha256": "1e46b8139e44d993f365352b680715dcfad040366d980d8636eefcdc18f41c62",
+   "file_name": "vnish-l7-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-l7-xil-nand-v1.3.4.tar.gz",
+   "route_id": "l7-xil-nand",
+   "is_default": false,
+   "superseded_by": "l7-xil-nand-v1.3.5"
+  },
+  {
+   "id": "l9-aml-nand-v1.3.4",
+   "model_id": "l9",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 21537920,
+   "sha256": "459435cbb4a20f8f135552a9af9924e16d255da1628ccb6d638a2cb86bb3c35d",
+   "file_name": "vnish-l9-aml-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-l9-aml-nand-v1.3.4.tar.gz",
+   "route_id": "l9-aml-nand",
+   "is_default": false,
+   "superseded_by": "l9-aml-nand-v1.3.5"
+  },
+  {
+   "id": "l9-cv-nand-v1.3.4",
+   "model_id": "l9",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 12366461,
+   "sha256": "afdf2126fa7a6e40e0fd5b918c7cf9ca9b2561870670ad35816bfa703a47a03e",
+   "file_name": "vnish-l9-cv-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-l9-cv-nand-v1.3.4.tar.gz",
+   "route_id": "l9-cv-nand",
+   "is_default": false,
+   "superseded_by": "l9-cv-nand-v1.3.5"
+  },
+  {
+   "id": "s19-xil-nand-v1.3.4",
+   "model_id": "s19",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16181712,
+   "sha256": "931fd3551dcb7d264e45180397f031c3b3a642f07150159e0b343d6b1837f035",
+   "file_name": "vnish-s19-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19-126-aml-nand-v1.3.4",
+   "model_id": "s19-126",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 21550755,
+   "sha256": "1b81f501c9ddb453d3b773df50e9f8c0fcc73bdd17ed21eaf5a0d620701adb78",
+   "file_name": "vnish-s19-126-aml-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19-126-aml-nand-v1.3.4.tar.gz",
+   "route_id": "s19-126-aml-nand",
+   "is_default": false,
+   "superseded_by": "s19-126-aml-nand-v1.3.5"
+  },
+  {
+   "id": "s19-126-cv-nand-v1.3.4",
+   "model_id": "s19-126",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 12378470,
+   "sha256": "78877a6c1cfd6083e5ea92969efadbbf143015ae4227c7edfd2e136fd2a45210",
+   "file_name": "vnish-s19-126-cv-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19-126-cv-nand-v1.3.4.tar.gz",
+   "route_id": "s19-126-cv-nand",
+   "is_default": false,
+   "superseded_by": "s19-126-cv-nand-v1.3.5"
+  },
+  {
+   "id": "s19-88-aml-nand-v1.3.4",
+   "model_id": "s19-88",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 21549160,
+   "sha256": "fc91465dbedbf4fed85b15f5cff4bcfb83247c877fbf07ed940c3b2f55f3c33a",
+   "file_name": "vnish-s19-88-aml-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19-88-aml-nand-v1.3.4.tar.gz",
+   "route_id": "s19-88-aml-nand",
+   "is_default": false,
+   "superseded_by": "s19-88-aml-nand-v1.3.5"
+  },
+  {
+   "id": "s19-88-bb-nand-v1.3.4",
+   "model_id": "s19-88",
+   "board_platform": {
+    "code": "bb",
+    "label": "BB"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 19264796,
+   "sha256": "a7a3e49237491f16e997aab43d9649cac22e2fd60bf2bb21c68118b0581fdd2d",
+   "file_name": "vnish-s19-88-bb-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19-88-bb-nand-v1.3.4.tar.gz",
+   "route_id": "s19-88-bb-nand",
+   "is_default": false,
+   "superseded_by": "s19-88-bb-nand-v1.3.5"
+  },
+  {
+   "id": "s19-88-cv-nand-v1.3.4",
+   "model_id": "s19-88",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 12377753,
+   "sha256": "9ee66b368148f5750e9c9a9ceca8edc051f1591caf236dd4336809522919b970",
+   "file_name": "vnish-s19-88-cv-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19-88-cv-nand-v1.3.4.tar.gz",
+   "route_id": "s19-88-cv-nand",
+   "is_default": false,
+   "superseded_by": "s19-88-cv-nand-v1.3.5"
+  },
+  {
+   "id": "s19-88-xil-nand-v1.3.4",
+   "model_id": "s19-88",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16180554,
+   "sha256": "e864e3b32ff7ffac04dded716a1a768899ac75d31916af8e5ca792c5481fc828",
+   "file_name": "vnish-s19-88-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19-88-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19-88-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19-88-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19-hydro-xil-nand-v1.3.4",
+   "model_id": "s19-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16165383,
+   "sha256": "0c7bcf1900cbd0ee12ff0ac20d0349989d5688bee19cad378ce9a23807c0d142",
+   "file_name": "vnish-s19-hydro-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19-hydro-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19-hydro-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19-hydro-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19a-xil-nand-v1.3.4",
+   "model_id": "s19a",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16181720,
+   "sha256": "d1b0139a1dfd92697b7eee90eedadc033091890c770986c6ed21bf5f8caafcfe",
+   "file_name": "vnish-s19a-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19a-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19a-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19a-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19apro-xil-nand-v1.3.4",
+   "model_id": "s19apro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16167562,
+   "sha256": "a80dffb1a9d2cb076083fe1bf89a83e9fe46b1d14cae73c49baa0bc4f234d0f2",
+   "file_name": "vnish-s19apro-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19apro-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19apro-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19apro-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19e-xp-hydro-xil-nand-v1.3.4",
+   "model_id": "s19e-xp-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16165832,
+   "sha256": "7601944d5587622612fb2e1f64f7c6e7bdd9ebde5f63a8012b3ddba9471a1be7",
+   "file_name": "vnish-s19e-xp-hydro-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19e-xp-hydro-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19e-xp-hydro-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19e-xp-hydro-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19i-xil-nand-v1.3.4",
+   "model_id": "s19i",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16171409,
+   "sha256": "30f6343baedddc3e934beb5a8261b505ac61a0e0fa300c67c8058f84c2dbaef9",
+   "file_name": "vnish-s19i-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19i-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19i-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19i-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19j-bb-nand-v1.3.4",
+   "model_id": "s19j",
+   "board_platform": {
+    "code": "bb",
+    "label": "BB"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 19253507,
+   "sha256": "5f1ae16b9ea8c19f9f6addc0d019eff02dcb5aebbcdfb5124fa05f26702b10c8",
+   "file_name": "vnish-s19j-bb-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19j-bb-nand-v1.3.4.tar.gz",
+   "route_id": "s19j-bb-nand",
+   "is_default": false,
+   "superseded_by": "s19j-bb-nand-v1.3.5"
+  },
+  {
+   "id": "s19j-cv-nand-v1.3.4",
+   "model_id": "s19j",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 12362614,
+   "sha256": "ef4f6829b1e7510b606bdb3fc2c469e46998d2476195b42bb452557a381bf8d9",
+   "file_name": "vnish-s19j-cv-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19j-cv-nand-v1.3.4.tar.gz",
+   "route_id": "s19j-cv-nand",
+   "is_default": false,
+   "superseded_by": "s19j-cv-nand-v1.3.5"
+  },
+  {
+   "id": "s19j-xil-nand-v1.3.4",
+   "model_id": "s19j",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16165218,
+   "sha256": "20f15e964d2fe9baa3667752d17aa749d9c527cd2dcca6667463ea4944bcc43b",
+   "file_name": "vnish-s19j-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19j-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19j-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19j-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19j-plus-aml-nand-v1.3.4",
+   "model_id": "s19j-plus",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 21540919,
+   "sha256": "ab88ee0a9c3bf64204b30f7b1d7abc63aa8b8dde5e252e9ef09524673911889e",
+   "file_name": "vnish-s19j-plus-aml-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19j-plus-aml-nand-v1.3.4.tar.gz",
+   "route_id": "s19j-plus-aml-nand",
+   "is_default": false,
+   "superseded_by": "s19j-plus-aml-nand-v1.3.5"
+  },
+  {
+   "id": "s19j-plus-bb-nand-v1.3.4",
+   "model_id": "s19j-plus",
+   "board_platform": {
+    "code": "bb",
+    "label": "BB"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 19259391,
+   "sha256": "d65c9437a05f1ecbf7996b17c5ea291c3e87090bd7ddaef209cc7c675cb577b3",
+   "file_name": "vnish-s19j-plus-bb-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19j-plus-bb-nand-v1.3.4.tar.gz",
+   "route_id": "s19j-plus-bb-nand",
+   "is_default": false,
+   "superseded_by": "s19j-plus-bb-nand-v1.3.5"
+  },
+  {
+   "id": "s19j-plus-cv-nand-v1.3.4",
+   "model_id": "s19j-plus",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 12371444,
+   "sha256": "bf0b72d5711b774ab58876458ad589f621660bbd5ad048577f6b1e62dce7eb3c",
+   "file_name": "vnish-s19j-plus-cv-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19j-plus-cv-nand-v1.3.4.tar.gz",
+   "route_id": "s19j-plus-cv-nand",
+   "is_default": false,
+   "superseded_by": "s19j-plus-cv-nand-v1.3.5"
+  },
+  {
+   "id": "s19j-plus-xil-nand-v1.3.4",
+   "model_id": "s19j-plus",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16186846,
+   "sha256": "6361a55b19bc99226c94af421e24d339f5b50377f3188b4632ee0e6e5c101321",
+   "file_name": "vnish-s19j-plus-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19j-plus-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19j-plus-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19j-plus-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19j-xp-aml-nand-v1.3.4",
+   "model_id": "s19j-xp",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 21542047,
+   "sha256": "a941e456e35d781cc994cec3ce0693c08d98cfaafba3e8a2578272dbe318c438",
+   "file_name": "vnish-s19j-xp-aml-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19j-xp-aml-nand-v1.3.4.tar.gz",
+   "route_id": "s19j-xp-aml-nand",
+   "is_default": false,
+   "superseded_by": "s19j-xp-aml-nand-v1.3.5"
+  },
+  {
+   "id": "s19j-xp-cv-nand-v1.3.4",
+   "model_id": "s19j-xp",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 12376987,
+   "sha256": "88e1322c3973611423bf0666989e3c4f412bbe8a478112164e379fe52e4bb092",
+   "file_name": "vnish-s19j-xp-cv-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19j-xp-cv-nand-v1.3.4.tar.gz",
+   "route_id": "s19j-xp-cv-nand",
+   "is_default": false,
+   "superseded_by": "s19j-xp-cv-nand-v1.3.5"
+  },
+  {
+   "id": "s19j-xp-xil-nand-v1.3.4",
+   "model_id": "s19j-xp",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16166134,
+   "sha256": "d258ec81eb4b60121e8c9fea3061f25244e8a64133031ae82622fe96c5938ffa",
+   "file_name": "vnish-s19j-xp-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19j-xp-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19j-xp-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19j-xp-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19jpro-aml-nand-v1.3.4",
+   "model_id": "s19jpro",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 21550111,
+   "sha256": "e2e7986d6c04faa8d935a4bef2987ae6a0ec0434a93e5225d369d53b2f1035cf",
+   "file_name": "vnish-s19jpro-aml-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19jpro-aml-nand-v1.3.4.tar.gz",
+   "route_id": "s19jpro-aml-nand",
+   "is_default": false,
+   "superseded_by": "s19jpro-aml-nand-v1.3.5"
+  },
+  {
+   "id": "s19jpro-bb-nand-v1.3.4",
+   "model_id": "s19jpro",
+   "board_platform": {
+    "code": "bb",
+    "label": "BB"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 19268196,
+   "sha256": "27f21cf147760746fd321e3e4a0377003765b8f62627af51d2918725198bca03",
+   "file_name": "vnish-s19jpro-bb-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19jpro-bb-nand-v1.3.4.tar.gz",
+   "route_id": "s19jpro-bb-nand",
+   "is_default": false,
+   "superseded_by": "s19jpro-bb-nand-v1.3.5"
+  },
+  {
+   "id": "s19jpro-cv-nand-v1.3.4",
+   "model_id": "s19jpro",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 12378768,
+   "sha256": "a8ff98cdc7e43674008b7adcd58c589eb97bc274743e48efc3aa6e6ca653ff7d",
+   "file_name": "vnish-s19jpro-cv-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19jpro-cv-nand-v1.3.4.tar.gz",
+   "route_id": "s19jpro-cv-nand",
+   "is_default": false,
+   "superseded_by": "s19jpro-cv-nand-v1.3.5"
+  },
+  {
+   "id": "s19jpro-xil-nand-v1.3.4",
+   "model_id": "s19jpro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16180365,
+   "sha256": "8a9449ce44660e8de305dce0726ac45dbb8cd9b66b0fdee499bad08946707174",
+   "file_name": "vnish-s19jpro-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19jpro-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19jpro-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19jpro-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19jpro-a-aml-nand-v1.3.4",
+   "model_id": "s19jpro-a",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 21545066,
+   "sha256": "afd3d25d07fb446b8ab079aa1ed0b09229073f6d7a4f2ce174c7958df954ccf4",
+   "file_name": "vnish-s19jpro-a-aml-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19jpro-a-aml-nand-v1.3.4.tar.gz",
+   "route_id": "s19jpro-a-aml-nand",
+   "is_default": false,
+   "superseded_by": "s19jpro-a-aml-nand-v1.3.5"
+  },
+  {
+   "id": "s19jpro-a-bb-nand-v1.3.4",
+   "model_id": "s19jpro-a",
+   "board_platform": {
+    "code": "bb",
+    "label": "BB"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 19249379,
+   "sha256": "6c55bb9cbd7946fb54635d7b9f832d9e1d39b62e896987a6a9bc892dbad20d6c",
+   "file_name": "vnish-s19jpro-a-bb-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19jpro-a-bb-nand-v1.3.4.tar.gz",
+   "route_id": "s19jpro-a-bb-nand",
+   "is_default": false,
+   "superseded_by": "s19jpro-a-bb-nand-v1.3.5"
+  },
+  {
+   "id": "s19jpro-a-cv-nand-v1.3.4",
+   "model_id": "s19jpro-a",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 12376595,
+   "sha256": "35aa56a9b80895658868a100da25078b6d30d9a4c877b96b1901f867cb3c1878",
+   "file_name": "vnish-s19jpro-a-cv-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19jpro-a-cv-nand-v1.3.4.tar.gz",
+   "route_id": "s19jpro-a-cv-nand",
+   "is_default": false,
+   "superseded_by": "s19jpro-a-cv-nand-v1.3.5"
+  },
+  {
+   "id": "s19jpro-plus-aml-nand-v1.3.4",
+   "model_id": "s19jpro-plus",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 21544665,
+   "sha256": "eca01f752b956055b744ee277181b4ac2c859e57438c2f579e94a154c26a7f6f",
+   "file_name": "vnish-s19jpro-plus-aml-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19jpro-plus-aml-nand-v1.3.4.tar.gz",
+   "route_id": "s19jpro-plus-aml-nand",
+   "is_default": false,
+   "superseded_by": "s19jpro-plus-aml-nand-v1.3.5"
+  },
+  {
+   "id": "s19jpro-plus-bb-nand-v1.3.4",
+   "model_id": "s19jpro-plus",
+   "board_platform": {
+    "code": "bb",
+    "label": "BB"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 19253839,
+   "sha256": "8dd843fd8574eaec5841a126d9b9d2a9818782649187b34e03d1aae8998af26a",
+   "file_name": "vnish-s19jpro-plus-bb-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19jpro-plus-bb-nand-v1.3.4.tar.gz",
+   "route_id": "s19jpro-plus-bb-nand",
+   "is_default": false,
+   "superseded_by": "s19jpro-plus-bb-nand-v1.3.5"
+  },
+  {
+   "id": "s19jpro-plus-cv-nand-v1.3.4",
+   "model_id": "s19jpro-plus",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 12357797,
+   "sha256": "4f7a681a83859e476e21d0d846df4cb4afb49bee8414cca8aa982a2c44a815d8",
+   "file_name": "vnish-s19jpro-plus-cv-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19jpro-plus-cv-nand-v1.3.4.tar.gz",
+   "route_id": "s19jpro-plus-cv-nand",
+   "is_default": false,
+   "superseded_by": "s19jpro-plus-cv-nand-v1.3.5"
+  },
+  {
+   "id": "s19jpro-plus-xil-nand-v1.3.4",
+   "model_id": "s19jpro-plus",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16165283,
+   "sha256": "03942a74e3c6a0c32c15b9ef77a07f9597f5e56ed1cf38059f781884d92caa6b",
+   "file_name": "vnish-s19jpro-plus-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19jpro-plus-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19jpro-plus-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19jpro-plus-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19kpro-aml-nand-v1.3.4",
+   "model_id": "s19kpro",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 21548876,
+   "sha256": "91b3239aaed1a5afc9a57f193b0233f9f5ab703142d58a8a31d002a4ea0938c3",
+   "file_name": "vnish-s19kpro-aml-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19kpro-aml-nand-v1.3.4.tar.gz",
+   "route_id": "s19kpro-aml-nand",
+   "is_default": false,
+   "superseded_by": "s19kpro-aml-nand-v1.3.5"
+  },
+  {
+   "id": "s19kpro-cv-nand-v1.3.4",
+   "model_id": "s19kpro",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 12381544,
+   "sha256": "e6bfbf24498be2546c9ce6ed81be27306b0f3d7b296e9db86fbac65f0761d195",
+   "file_name": "vnish-s19kpro-cv-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19kpro-cv-nand-v1.3.4.tar.gz",
+   "route_id": "s19kpro-cv-nand",
+   "is_default": false,
+   "superseded_by": "s19kpro-cv-nand-v1.3.5"
+  },
+  {
+   "id": "s19kpro-xil-nand-v1.3.4",
+   "model_id": "s19kpro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16181989,
+   "sha256": "e8d2e2a4b167dbe7b658bba04fb3420ccfc5db0dd006175c189d5b0057415867",
+   "file_name": "vnish-s19kpro-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19kpro-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19kpro-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19kpro-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19plus-xil-nand-v1.3.4",
+   "model_id": "s19plus",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16185534,
+   "sha256": "899f3fa0e2456ec78f49b1708f6c70243a8ab9014c6baf7f04a6ca2ecf9d887e",
+   "file_name": "vnish-s19plus-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19plus-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19plus-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19plus-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19pro-xil-nand-v1.3.4",
+   "model_id": "s19pro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16182037,
+   "sha256": "20ff9aadf6a99729719782aad693b69aa1d9ef8db79ade9a119d9e01aac7f4c7",
+   "file_name": "vnish-s19pro-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19pro-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19pro-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19pro-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19pro-a-xil-nand-v1.3.4",
+   "model_id": "s19pro-a",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16179511,
+   "sha256": "9dd15ae23c1b79b1f4e47d40b063caa97e55cba93d229f836985abd3edc95514",
+   "file_name": "vnish-s19pro-a-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19pro-a-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19pro-a-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19pro-a-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19pro-hydro-xil-nand-v1.3.4",
+   "model_id": "s19pro-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16185458,
+   "sha256": "fc6c46b9f3e2e20654e446df4566a75e650847c91e260f84b1136f3fc6aae3c1",
+   "file_name": "vnish-s19pro-hydro-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19pro-hydro-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19pro-hydro-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19pro-hydro-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19pro-hydro-120-xil-nand-v1.3.4",
+   "model_id": "s19pro-hydro-120",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16171604,
+   "sha256": "0082d9991237cdfc8ba2bb1dd1778670a0b4bc938b549fa567923d82128b806f",
+   "file_name": "vnish-s19pro-hydro-120-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19pro-hydro-120-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19pro-hydro-120-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19pro-hydro-120-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19pro-plus-hydro-xil-nand-v1.3.4",
+   "model_id": "s19pro-plus-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16170622,
+   "sha256": "7598b685c5db7dd10c7c46731cb9cbda4dead93f7457a708d569cb73f6778d08",
+   "file_name": "vnish-s19pro-plus-hydro-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19pro-plus-hydro-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19pro-plus-hydro-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19pro-plus-hydro-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19xp-aml-nand-v1.3.4",
+   "model_id": "s19xp",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 21541934,
+   "sha256": "cbdc4e3ad9f7a5f1baec9ea1aa486b06db9b50930ee6c3a65a006fa72eb13d71",
+   "file_name": "vnish-s19xp-aml-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19xp-aml-nand-v1.3.4.tar.gz",
+   "route_id": "s19xp-aml-nand",
+   "is_default": false,
+   "superseded_by": "s19xp-aml-nand-v1.3.5"
+  },
+  {
+   "id": "s19xp-cv-nand-v1.3.4",
+   "model_id": "s19xp",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 12359683,
+   "sha256": "7ff5391d1b3d42c4830aa9b33a838c66646fa5322f67f4f37142802a75b2fc2e",
+   "file_name": "vnish-s19xp-cv-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19xp-cv-nand-v1.3.4.tar.gz",
+   "route_id": "s19xp-cv-nand",
+   "is_default": false,
+   "superseded_by": "s19xp-cv-nand-v1.3.5"
+  },
+  {
+   "id": "s19xp-xil-nand-v1.3.4",
+   "model_id": "s19xp",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16169985,
+   "sha256": "86b0f300eef82e347dceedb0fd4916aa8ec55807a80b606be249fe6fbc8ebb2f",
+   "file_name": "vnish-s19xp-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19xp-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19xp-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19xp-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19xp-hydro-xil-nand-v1.3.4",
+   "model_id": "s19xp-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16172362,
+   "sha256": "0bcca6d466a2fc1db9c4d278910221d7111cab0ad9cee65d517184c53ce0c150",
+   "file_name": "vnish-s19xp-hydro-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19xp-hydro-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19xp-hydro-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19xp-hydro-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19xp-plus-aml-nand-v1.3.4",
+   "model_id": "s19xp-plus",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 21541828,
+   "sha256": "6bbc2a4822f603e3851401a6d4f1af14f42bf5aedb91eb9de44e51a673aa1a6b",
+   "file_name": "vnish-s19xp-plus-aml-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19xp-plus-aml-nand-v1.3.4.tar.gz",
+   "route_id": "s19xp-plus-aml-nand",
+   "is_default": false,
+   "superseded_by": "s19xp-plus-aml-nand-v1.3.5"
+  },
+  {
+   "id": "s19xp-plus-hydro-xil-nand-v1.3.4",
+   "model_id": "s19xp-plus-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16166005,
+   "sha256": "6d2c1838f724c39db6a643db10f782ab1681f61cb650de69a53cf73de3cb72bd",
+   "file_name": "vnish-s19xp-plus-hydro-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s19xp-plus-hydro-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s19xp-plus-hydro-xil-nand",
+   "is_default": false,
+   "superseded_by": "s19xp-plus-hydro-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s21-aml-nand-v1.3.4",
+   "model_id": "s21",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 21541837,
+   "sha256": "5474fc4e3d97b0460cc95ca402752eb755199c38b1a61e3165e4d67550344b58",
+   "file_name": "vnish-s21-aml-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s21-aml-nand-v1.3.4.tar.gz",
+   "route_id": "s21-aml-nand",
+   "is_default": false,
+   "superseded_by": "s21-aml-nand-v1.3.5"
+  },
+  {
+   "id": "s21-hydro-xil-nand-v1.3.4",
+   "model_id": "s21-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16180710,
+   "sha256": "78926aecc84dab3940d08c165450f13d8e022a7402602fe0653120babc3a9367",
+   "file_name": "vnish-s21-hydro-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s21-hydro-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s21-hydro-xil-nand",
+   "is_default": false,
+   "superseded_by": "s21-hydro-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s21-imm-aml-nand-v1.3.4",
+   "model_id": "s21-imm",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 21552292,
+   "sha256": "e9269a67d413c686c4a7d21af003000ba4d7fa22d4b36af8ced4d9dec511d078",
+   "file_name": "vnish-s21-imm-aml-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s21-imm-aml-nand-v1.3.4.tar.gz",
+   "route_id": "s21-imm-aml-nand",
+   "is_default": false,
+   "superseded_by": "s21-imm-aml-nand-v1.3.5"
+  },
+  {
+   "id": "s21e-hydro-aml-nand-v1.3.4",
+   "model_id": "s21e-hydro",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 21560163,
+   "sha256": "50ccbe2d9c37c2286367c48756c3c81b2a9bf15277134699b46ae6925bedc92b",
+   "file_name": "vnish-s21e-hydro-aml-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s21e-hydro-aml-nand-v1.3.4.tar.gz",
+   "route_id": "s21e-hydro-aml-nand",
+   "is_default": false,
+   "superseded_by": "s21e-hydro-aml-nand-v1.3.5"
+  },
+  {
+   "id": "s21e-hydro-xil-nand-v1.3.4",
+   "model_id": "s21e-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16184882,
+   "sha256": "0790bbd3b5d57ab22f56ecc000319f87e651ee38e6466ea08c91f647bb6b18fb",
+   "file_name": "vnish-s21e-hydro-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s21e-hydro-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s21e-hydro-xil-nand",
+   "is_default": false,
+   "superseded_by": "s21e-hydro-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s21e-xp-hydro-xil-nand-v1.3.4",
+   "model_id": "s21e-xp-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16180206,
+   "sha256": "0cbcbf781b3dff559fc806a00a2347be37c79afa7b325d0eb9dfda965ff342a9",
+   "file_name": "vnish-s21e-xp-hydro-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s21e-xp-hydro-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s21e-xp-hydro-xil-nand",
+   "is_default": false,
+   "superseded_by": "s21e-xp-hydro-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s21plus-aml-nand-v1.3.4",
+   "model_id": "s21plus",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 21553994,
+   "sha256": "92afc21d30b0ab896fdb47d36f6fddb5377625415f8bcef98464704d01814c4a",
+   "file_name": "vnish-s21plus-aml-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s21plus-aml-nand-v1.3.4.tar.gz",
+   "route_id": "s21plus-aml-nand",
+   "is_default": false,
+   "superseded_by": "s21plus-aml-nand-v1.3.5"
+  },
+  {
+   "id": "s21plus-hydro-cv-nand-v1.3.4",
+   "model_id": "s21plus-hydro",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 12371136,
+   "sha256": "b39e17689e217959a1dfd8cdda84c06f00dba298a8e3c486bd71640f49eb5ef0",
+   "file_name": "vnish-s21plus-hydro-cv-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s21plus-hydro-cv-nand-v1.3.4.tar.gz",
+   "route_id": "s21plus-hydro-cv-nand",
+   "is_default": false,
+   "superseded_by": "s21plus-hydro-cv-nand-v1.3.5"
+  },
+  {
+   "id": "s21plus-hydro-xil-nand-v1.3.4",
+   "model_id": "s21plus-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16178863,
+   "sha256": "3a06e4854af8e615d626fb8d2611558df37fbb39a762271c5cdd8072e60fe4b4",
+   "file_name": "vnish-s21plus-hydro-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s21plus-hydro-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s21plus-hydro-xil-nand",
+   "is_default": false,
+   "superseded_by": "s21plus-hydro-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s21pro-aml-nand-v1.3.4",
+   "model_id": "s21pro",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 21537507,
+   "sha256": "53248a81f7640f38bfc526c9888a5636798c13ed6deac1367a1818230f14170f",
+   "file_name": "vnish-s21pro-aml-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s21pro-aml-nand-v1.3.4.tar.gz",
+   "route_id": "s21pro-aml-nand",
+   "is_default": false,
+   "superseded_by": "s21pro-aml-nand-v1.3.5"
+  },
+  {
+   "id": "s21pro-plus-aml-nand-v1.3.4",
+   "model_id": "s21pro-plus",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 21539436,
+   "sha256": "3b12f77a8fd4956502cb60202df27904ae5c3b43c9a72f96001a813633529294",
+   "file_name": "vnish-s21pro-plus-aml-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s21pro-plus-aml-nand-v1.3.4.tar.gz",
+   "route_id": "s21pro-plus-aml-nand",
+   "is_default": false,
+   "superseded_by": "s21pro-plus-aml-nand-v1.3.5"
+  },
+  {
+   "id": "s21xp-aml-nand-v1.3.4",
+   "model_id": "s21xp",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 21537555,
+   "sha256": "1d8712255bde70c74020ea8b94a4682ce9924d29bec46f846d30efa47628ad31",
+   "file_name": "vnish-s21xp-aml-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s21xp-aml-nand-v1.3.4.tar.gz",
+   "route_id": "s21xp-aml-nand",
+   "is_default": false,
+   "superseded_by": "s21xp-aml-nand-v1.3.5"
+  },
+  {
+   "id": "s21xp-hydro-xil-nand-v1.3.4",
+   "model_id": "s21xp-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16171035,
+   "sha256": "2bcf785218433edf6bb72b17036a4a5f15d10a491d8ca71733aa3c1726e032e5",
+   "file_name": "vnish-s21xp-hydro-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s21xp-hydro-xil-nand-v1.3.4.tar.gz",
+   "route_id": "s21xp-hydro-xil-nand",
+   "is_default": false,
+   "superseded_by": "s21xp-hydro-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s21xp-imm-aml-nand-v1.3.4",
+   "model_id": "s21xp-imm",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 21543752,
+   "sha256": "18f564d925f8cf671a6395279b4d5ed46900ae024d32dac3644228282a7dc7c2",
+   "file_name": "vnish-s21xp-imm-aml-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-s21xp-imm-aml-nand-v1.3.4.tar.gz",
+   "route_id": "s21xp-imm-aml-nand",
+   "is_default": false,
+   "superseded_by": "s21xp-imm-aml-nand-v1.3.5"
+  },
+  {
+   "id": "t19-xil-nand-v1.3.4",
+   "model_id": "t19",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16167259,
+   "sha256": "463a3254504ef75b87664eb4fdc62e11eafed67f25196640c4c299e90b320d23",
+   "file_name": "vnish-t19-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-t19-xil-nand-v1.3.4.tar.gz",
+   "route_id": "t19-xil-nand",
+   "is_default": false,
+   "superseded_by": "t19-xil-nand-v1.3.5"
+  },
+  {
+   "id": "t19-hydro-xil-nand-v1.3.4",
+   "model_id": "t19-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16172938,
+   "sha256": "cf6006226775564fa6fd250dec5907e2b62465f83b909a89e66af234c1060366",
+   "file_name": "vnish-t19-hydro-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-t19-hydro-xil-nand-v1.3.4.tar.gz",
+   "route_id": "t19-hydro-xil-nand",
+   "is_default": false,
+   "superseded_by": "t19-hydro-xil-nand-v1.3.5"
+  },
+  {
+   "id": "t19pro-hydro-xil-nand-v1.3.4",
+   "model_id": "t19pro-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16175593,
+   "sha256": "86853489c7536e0443937b3e4a2e95bf5b3473f52c949e62487b7c1eee65c488",
+   "file_name": "vnish-t19pro-hydro-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-t19pro-hydro-xil-nand-v1.3.4.tar.gz",
+   "route_id": "t19pro-hydro-xil-nand",
+   "is_default": false,
+   "superseded_by": "t19pro-hydro-xil-nand-v1.3.5"
+  },
+  {
+   "id": "t21-aml-nand-v1.3.4",
+   "model_id": "t21",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 21551399,
+   "sha256": "0d185bfe2b2c73a98e0b56d75f2883ec86340bfa54f680224f63f3da7f96db93",
+   "file_name": "vnish-t21-aml-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-t21-aml-nand-v1.3.4.tar.gz",
+   "route_id": "t21-aml-nand",
+   "is_default": false,
+   "superseded_by": "t21-aml-nand-v1.3.5"
+  },
+  {
+   "id": "t21-cv-nand-v1.3.4",
+   "model_id": "t21",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 12374271,
+   "sha256": "afc8b4c445b7c20f55e4d3299a8b5cf43623b1ed660fd3a2650dfd4fba72a268",
+   "file_name": "vnish-t21-cv-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-t21-cv-nand-v1.3.4.tar.gz",
+   "route_id": "t21-cv-nand",
+   "is_default": false,
+   "superseded_by": "t21-cv-nand-v1.3.5"
+  },
+  {
+   "id": "t21-xil-nand-v1.3.4",
+   "model_id": "t21",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16185938,
+   "sha256": "c57b662f2bd65ee1d445bee4d2bfef3cbe530f70cfcf55d7541438d9b1486fa5",
+   "file_name": "vnish-t21-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-t21-xil-nand-v1.3.4.tar.gz",
+   "route_id": "t21-xil-nand",
+   "is_default": false,
+   "superseded_by": "t21-xil-nand-v1.3.5"
+  },
+  {
+   "id": "u3s19xph-cv-nand-v1.3.4",
+   "model_id": "u3s19xph",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 12379740,
+   "sha256": "1fbd8174dbce7ffd8ecba7ca4fa93bdcd92fc8b6c448a410dd94039794cbb0fe",
+   "file_name": "vnish-u3s19xph-cv-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-u3s19xph-cv-nand-v1.3.4.tar.gz",
+   "route_id": "u3s19xph-cv-nand",
+   "is_default": false,
+   "superseded_by": "u3s19xph-cv-nand-v1.3.5"
+  },
+  {
+   "id": "u3s21exph-xil-nand-v1.3.4",
+   "model_id": "u3s21exph",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.4",
+   "channel": "stable",
+   "size_bytes": 16176276,
+   "sha256": "9b65807eb5c6cf0b3a0f5b9c8e4f189c1ab9affa408baa27f0ac192e7a8c8d28",
+   "file_name": "vnish-u3s21exph-xil-nand-v1.3.4.tar.gz",
+   "download_path": "/downloads/firmware/1.3.4/stable/vnish-u3s21exph-xil-nand-v1.3.4.tar.gz",
+   "route_id": "u3s21exph-xil-nand",
+   "is_default": false,
+   "superseded_by": "u3s21exph-xil-nand-v1.3.5"
+  },
+  {
+   "id": "s19apro-xil-nand-v1.3.5",
+   "model_id": "s19apro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16203601,
+   "sha256": "7e52784408017e661cee1d25b8989d513e1a909d18ab8d0b17d83beb1c009f18",
+   "file_name": "vnish-s19apro-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19apro-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19apro-xil-nand",
+   "is_default": true,
+   "supersedes": "s19apro-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s21pro-plus-aml-nand-v1.3.5",
+   "model_id": "s21pro-plus",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21574686,
+   "sha256": "9493ad780bdd88182a55d369de8aa3358e6eee5d4b9fb63e36075cc833df5186",
+   "file_name": "vnish-s21pro-plus-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s21pro-plus-aml-nand-v1.3.5.tar.gz",
+   "route_id": "s21pro-plus-aml-nand",
+   "is_default": true,
+   "supersedes": "s21pro-plus-aml-nand-v1.3.4"
+  },
+  {
+   "id": "s21plus-hydro-cv-nand-v1.3.5",
+   "model_id": "s21plus-hydro",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 12394556,
+   "sha256": "1b241e96879646b75cb7338743f1b19f9c2b625b0f7693714dd7dabfcc5e273c",
+   "file_name": "vnish-s21plus-hydro-cv-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s21plus-hydro-cv-nand-v1.3.5.tar.gz",
+   "route_id": "s21plus-hydro-cv-nand",
+   "is_default": true,
+   "supersedes": "s21plus-hydro-cv-nand-v1.3.4"
+  },
+  {
+   "id": "u2l9h-aml-nand-v1.3.5",
+   "model_id": "u2l9h",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21574547,
+   "sha256": "95a77bfa2e37a7be83cb277b4cc9ea257ed036af80f1f38de53be79e053d3110",
+   "file_name": "vnish-u2l9h-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-u2l9h-aml-nand-v1.3.5.tar.gz",
+   "route_id": "u2l9h-aml-nand",
+   "is_default": true
+  },
+  {
+   "id": "s19a-xil-nand-v1.3.5",
+   "model_id": "s19a",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16172269,
+   "sha256": "8ab6982093eb996893b79bbf31e44bf656700699f16e1fe892dd2752f4d17609",
+   "file_name": "vnish-s19a-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19a-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19a-xil-nand",
+   "is_default": true,
+   "supersedes": "s19a-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s21plus-plus-aml-nand-v1.3.5",
+   "model_id": "s21plus-plus",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21570895,
+   "sha256": "32bc1ff1bfd268710b2786d5008999e53dd7f5683af4b1bdf068e1d22ac92f26",
+   "file_name": "vnish-s21plus-plus-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s21plus-plus-aml-nand-v1.3.5.tar.gz",
+   "route_id": "s21plus-plus-aml-nand",
+   "is_default": true
+  },
+  {
+   "id": "t21-xil-nand-v1.3.5",
+   "model_id": "t21",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16176233,
+   "sha256": "eff551bbe9e88ff9444d66dedac20ec7ae9b1c0d2bc6756eb57f0e02d69b4589",
+   "file_name": "vnish-t21-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-t21-xil-nand-v1.3.5.tar.gz",
+   "route_id": "t21-xil-nand",
+   "is_default": true,
+   "supersedes": "t21-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s19j-xp-aml-nand-v1.3.5",
+   "model_id": "s19j-xp",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21554516,
+   "sha256": "b35732549f8a76524b6810fa43d0030cd1b3ec3bfd6858b65fc7eea48556745d",
+   "file_name": "vnish-s19j-xp-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19j-xp-aml-nand-v1.3.5.tar.gz",
+   "route_id": "s19j-xp-aml-nand",
+   "is_default": true,
+   "supersedes": "s19j-xp-aml-nand-v1.3.4"
+  },
+  {
+   "id": "s19jpro-plus-bb-nand-v1.3.5",
+   "model_id": "s19jpro-plus",
+   "board_platform": {
+    "code": "bb",
+    "label": "BB"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 19287969,
+   "sha256": "ad9bf1a1a3dc1d83429bcdcd2193696a1ded061d188ac1499bdc82cac00fa28e",
+   "file_name": "vnish-s19jpro-plus-bb-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19jpro-plus-bb-nand-v1.3.5.tar.gz",
+   "route_id": "s19jpro-plus-bb-nand",
+   "is_default": true,
+   "supersedes": "s19jpro-plus-bb-nand-v1.3.4"
+  },
+  {
+   "id": "s19jpro-cv-nand-v1.3.5",
+   "model_id": "s19jpro",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 12364083,
+   "sha256": "3250bf081a00c600b798bf664dbbf192c59b59bcde6c0b14250ed257d5150872",
+   "file_name": "vnish-s19jpro-cv-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19jpro-cv-nand-v1.3.5.tar.gz",
+   "route_id": "s19jpro-cv-nand",
+   "is_default": true,
+   "supersedes": "s19jpro-cv-nand-v1.3.4"
+  },
+  {
+   "id": "s19i-xil-nand-v1.3.5",
+   "model_id": "s19i",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16173650,
+   "sha256": "230578e081c774758f1b49dc72c7404b301089e88c18cdb5450284e298c0ed16",
+   "file_name": "vnish-s19i-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19i-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19i-xil-nand",
+   "is_default": true,
+   "supersedes": "s19i-xil-nand-v1.3.4"
+  },
+  {
+   "id": "t19-xil-nand-v1.3.5",
+   "model_id": "t19",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16174185,
+   "sha256": "34d990bdf1a14b2e45d7b194aeacd6c6e8108e768e14ad34ce6c0ff8a41c748f",
+   "file_name": "vnish-t19-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-t19-xil-nand-v1.3.5.tar.gz",
+   "route_id": "t19-xil-nand",
+   "is_default": true,
+   "supersedes": "t19-xil-nand-v1.3.4"
+  },
+  {
+   "id": "t19pro-hydro-xil-nand-v1.3.5",
+   "model_id": "t19pro-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16180664,
+   "sha256": "20137c73a96ecda325ef733a2cd9b45dca1d5155f8101065e03088b9c33e64e1",
+   "file_name": "vnish-t19pro-hydro-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-t19pro-hydro-xil-nand-v1.3.5.tar.gz",
+   "route_id": "t19pro-hydro-xil-nand",
+   "is_default": true,
+   "supersedes": "t19pro-hydro-xil-nand-v1.3.4"
+  },
+  {
+   "id": "u3s21exph-xil-nand-v1.3.5",
+   "model_id": "u3s21exph",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16199380,
+   "sha256": "3baa1f0445b86ee4d2e7c6872c5ce824d5b8c35affee06388a297b61edc2cd59",
+   "file_name": "vnish-u3s21exph-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-u3s21exph-xil-nand-v1.3.5.tar.gz",
+   "route_id": "u3s21exph-xil-nand",
+   "is_default": true,
+   "supersedes": "u3s21exph-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s19xp-plus-aml-nand-v1.3.5",
+   "model_id": "s19xp-plus",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21549844,
+   "sha256": "cf789bbf2061d66f9c5d5f87c534c209d4dce46fcb276a112927449dfdbbd75d",
+   "file_name": "vnish-s19xp-plus-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19xp-plus-aml-nand-v1.3.5.tar.gz",
+   "route_id": "s19xp-plus-aml-nand",
+   "is_default": true,
+   "supersedes": "s19xp-plus-aml-nand-v1.3.4"
+  },
+  {
+   "id": "u3s19xph-cv-nand-v1.3.5",
+   "model_id": "u3s19xph",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 12394566,
+   "sha256": "cc0e0045870247304045dc3e11a7e4c71241f067a56504355bb8c1a8b31429c4",
+   "file_name": "vnish-u3s19xph-cv-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-u3s19xph-cv-nand-v1.3.5.tar.gz",
+   "route_id": "u3s19xph-cv-nand",
+   "is_default": true,
+   "supersedes": "u3s19xph-cv-nand-v1.3.4"
+  },
+  {
+   "id": "s21e-hydro-aml-nand-v1.3.5",
+   "model_id": "s21e-hydro",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21542470,
+   "sha256": "b2d6f069f5420b160115c894cf399e7f69baa273f660c8592afe4ac35a79369f",
+   "file_name": "vnish-s21e-hydro-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s21e-hydro-aml-nand-v1.3.5.tar.gz",
+   "route_id": "s21e-hydro-aml-nand",
+   "is_default": true,
+   "supersedes": "s21e-hydro-aml-nand-v1.3.4"
+  },
+  {
+   "id": "s21e-xp-hydro-xil-nand-v1.3.5",
+   "model_id": "s21e-xp-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16178516,
+   "sha256": "ea73fdf847c67ee03b090af518e9d11b1ed81d005a21038793f013f06dae274b",
+   "file_name": "vnish-s21e-xp-hydro-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s21e-xp-hydro-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s21e-xp-hydro-xil-nand",
+   "is_default": true,
+   "supersedes": "s21e-xp-hydro-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s21e-hydro-xil-nand-v1.3.5",
+   "model_id": "s21e-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16172365,
+   "sha256": "4d72def8d726b889f365ff03f2f38409b8701908ad85bb2e7ff68352b23426e2",
+   "file_name": "vnish-s21e-hydro-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s21e-hydro-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s21e-hydro-xil-nand",
+   "is_default": true,
+   "supersedes": "s21e-hydro-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s19j-plus-aml-nand-v1.3.5",
+   "model_id": "s19j-plus",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21545042,
+   "sha256": "24778f62e33090e6468941400eee4e4160195fcfa7dcd4c9849538da53a35707",
+   "file_name": "vnish-s19j-plus-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19j-plus-aml-nand-v1.3.5.tar.gz",
+   "route_id": "s19j-plus-aml-nand",
+   "is_default": true,
+   "supersedes": "s19j-plus-aml-nand-v1.3.4"
+  },
+  {
+   "id": "s19j-xp-xil-nand-v1.3.5",
+   "model_id": "s19j-xp",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16174016,
+   "sha256": "5843eaa485790b1093977dc1aa78e7bc8e7ac8300158057d673f4a463d5995f9",
+   "file_name": "vnish-s19j-xp-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19j-xp-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19j-xp-xil-nand",
+   "is_default": true,
+   "supersedes": "s19j-xp-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s19jpro-a-cv-nand-v1.3.5",
+   "model_id": "s19jpro-a",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 12395429,
+   "sha256": "4ba848b4a59ddc6763a91be97b841e26da0d9359bdfa33cab977c17f978e7797",
+   "file_name": "vnish-s19jpro-a-cv-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19jpro-a-cv-nand-v1.3.5.tar.gz",
+   "route_id": "s19jpro-a-cv-nand",
+   "is_default": true,
+   "supersedes": "s19jpro-a-cv-nand-v1.3.4"
+  },
+  {
+   "id": "s19xp-plus-hydro-xil-nand-v1.3.5",
+   "model_id": "s19xp-plus-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16175156,
+   "sha256": "6b96d858a5d8c3db4c1121c06b980482cded8aa5d14eda3723a2925a9030cbf8",
+   "file_name": "vnish-s19xp-plus-hydro-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19xp-plus-hydro-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19xp-plus-hydro-xil-nand",
+   "is_default": true,
+   "supersedes": "s19xp-plus-hydro-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s21-aml-nand-v1.3.5",
+   "model_id": "s21",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21541929,
+   "sha256": "da3d6312be551aeb8af90812dd41567cbaa3b87eb957dc7273414b9efbc1b6d9",
+   "file_name": "vnish-s21-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s21-aml-nand-v1.3.5.tar.gz",
+   "route_id": "s21-aml-nand",
+   "is_default": true,
+   "supersedes": "s21-aml-nand-v1.3.4"
+  },
+  {
+   "id": "s21pro-aml-nand-v1.3.5",
+   "model_id": "s21pro",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21570972,
+   "sha256": "dcee247ff134ae1c3ddfe777f6174082ffe0cbea2d90232127facbc398b07793",
+   "file_name": "vnish-s21pro-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s21pro-aml-nand-v1.3.5.tar.gz",
+   "route_id": "s21pro-aml-nand",
+   "is_default": true,
+   "supersedes": "s21pro-aml-nand-v1.3.4"
+  },
+  {
+   "id": "l9-cv-nand-v1.3.5",
+   "model_id": "l9",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 12367857,
+   "sha256": "b96c6e7b42f58215ea9a8baaa32d7d6775763f80e49ad7ec48934995f01fd518",
+   "file_name": "vnish-l9-cv-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-l9-cv-nand-v1.3.5.tar.gz",
+   "route_id": "l9-cv-nand",
+   "is_default": true,
+   "supersedes": "l9-cv-nand-v1.3.4"
+  },
+  {
+   "id": "l7-xil-nand-v1.3.5",
+   "model_id": "l7",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16198297,
+   "sha256": "fd8a0e9fd8da9f06c648317036b1d18c41d798563dbbaae6db23f17112532c57",
+   "file_name": "vnish-l7-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-l7-xil-nand-v1.3.5.tar.gz",
+   "route_id": "l7-xil-nand",
+   "is_default": true,
+   "supersedes": "l7-xil-nand-v1.3.4"
+  },
+  {
+   "id": "l9-aml-nand-v1.3.5",
+   "model_id": "l9",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21574424,
+   "sha256": "a5037649ec6832da708ca9d37ddf9e4b4f4afda10b00c1aa808c242e3944d7a2",
+   "file_name": "vnish-l9-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-l9-aml-nand-v1.3.5.tar.gz",
+   "route_id": "l9-aml-nand",
+   "is_default": true,
+   "supersedes": "l9-aml-nand-v1.3.4"
+  },
+  {
+   "id": "s19jpro-bb-nand-v1.3.5",
+   "model_id": "s19jpro",
+   "board_platform": {
+    "code": "bb",
+    "label": "BB"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 19253325,
+   "sha256": "2be55945c1119a1c59929890dc5d919fdef4df57cace5992a7a202008e04f103",
+   "file_name": "vnish-s19jpro-bb-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19jpro-bb-nand-v1.3.5.tar.gz",
+   "route_id": "s19jpro-bb-nand",
+   "is_default": true,
+   "supersedes": "s19jpro-bb-nand-v1.3.4"
+  },
+  {
+   "id": "s19-88-xil-nand-v1.3.5",
+   "model_id": "s19-88",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16175548,
+   "sha256": "d161a3373ffead720eba5702dd87bcc28ed36d144103bc81c851d867f5e77dae",
+   "file_name": "vnish-s19-88-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19-88-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19-88-xil-nand",
+   "is_default": true,
+   "supersedes": "s19-88-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s19j-xil-nand-v1.3.5",
+   "model_id": "s19j",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16172709,
+   "sha256": "7df27adc38bd2bc8c85d5ebab9dd67f95674394c7fbe4d9edd34cbcd5b217055",
+   "file_name": "vnish-s19j-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19j-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19j-xil-nand",
+   "is_default": true,
+   "supersedes": "s19j-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s19e-xp-hydro-xil-nand-v1.3.5",
+   "model_id": "s19e-xp-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16177872,
+   "sha256": "9d52eb763cb71794bccb6c47fbba2404a6ed44165fab015b3a706afa9af8b06a",
+   "file_name": "vnish-s19e-xp-hydro-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19e-xp-hydro-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19e-xp-hydro-xil-nand",
+   "is_default": true,
+   "supersedes": "s19e-xp-hydro-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s19-88-bb-nand-v1.3.5",
+   "model_id": "s19-88",
+   "board_platform": {
+    "code": "bb",
+    "label": "BB"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 19258261,
+   "sha256": "6ee67be44572f07a5e29ef9c8051650ec43be518e95020394fb5ff38cc65a492",
+   "file_name": "vnish-s19-88-bb-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19-88-bb-nand-v1.3.5.tar.gz",
+   "route_id": "s19-88-bb-nand",
+   "is_default": true,
+   "supersedes": "s19-88-bb-nand-v1.3.4"
+  },
+  {
+   "id": "s19-126-aml-nand-v1.3.5",
+   "model_id": "s19-126",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21547281,
+   "sha256": "88f72224051cb0e9546e682958f26b858aa89332ce1876cbd3b79581461a5549",
+   "file_name": "vnish-s19-126-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19-126-aml-nand-v1.3.5.tar.gz",
+   "route_id": "s19-126-aml-nand",
+   "is_default": true,
+   "supersedes": "s19-126-aml-nand-v1.3.4"
+  },
+  {
+   "id": "s19-xil-nand-v1.3.5",
+   "model_id": "s19",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16196434,
+   "sha256": "5457531a2fa282c679a26a11955e09cf0574ad6ee726f1512215f3d40503ae0a",
+   "file_name": "vnish-s19-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19-xil-nand",
+   "is_default": true,
+   "supersedes": "s19-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s19-88-aml-nand-v1.3.5",
+   "model_id": "s19-88",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21572556,
+   "sha256": "f61725aa2e86d2e79c5f9712f4f873748a8311e93174e2563cbc246ba88c207d",
+   "file_name": "vnish-s19-88-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19-88-aml-nand-v1.3.5.tar.gz",
+   "route_id": "s19-88-aml-nand",
+   "is_default": true,
+   "supersedes": "s19-88-aml-nand-v1.3.4"
+  },
+  {
+   "id": "s19-hydro-xil-nand-v1.3.5",
+   "model_id": "s19-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16199553,
+   "sha256": "4829a0c691fd5915595b4f12df7790286671eeba2a11d0f4c0e8ae4db8b45ffa",
+   "file_name": "vnish-s19-hydro-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19-hydro-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19-hydro-xil-nand",
+   "is_default": true,
+   "supersedes": "s19-hydro-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s19j-plus-xil-nand-v1.3.5",
+   "model_id": "s19j-plus",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16177937,
+   "sha256": "f8a82f96e86e6ddb6c14a0d59844ba01e0e6d73d5a467643632d51b7cb33fa75",
+   "file_name": "vnish-s19j-plus-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19j-plus-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19j-plus-xil-nand",
+   "is_default": true,
+   "supersedes": "s19j-plus-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s19j-plus-bb-nand-v1.3.5",
+   "model_id": "s19j-plus",
+   "board_platform": {
+    "code": "bb",
+    "label": "BB"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 19250809,
+   "sha256": "22cac0f30f3f37f6b56bc453d675ce8fb1175815d9269fba0e1e7e43531314a1",
+   "file_name": "vnish-s19j-plus-bb-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19j-plus-bb-nand-v1.3.5.tar.gz",
+   "route_id": "s19j-plus-bb-nand",
+   "is_default": true,
+   "supersedes": "s19j-plus-bb-nand-v1.3.4"
+  },
+  {
+   "id": "s19jpro-xil-nand-v1.3.5",
+   "model_id": "s19jpro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16202834,
+   "sha256": "a7648fe0616da7bc338fe53a1071c2321e20a7e0f02f735493c2301b8d121e5b",
+   "file_name": "vnish-s19jpro-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19jpro-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19jpro-xil-nand",
+   "is_default": true,
+   "supersedes": "s19jpro-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s19jpro-aml-nand-v1.3.5",
+   "model_id": "s19jpro",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21573858,
+   "sha256": "44adda05a0ec85d8d2fed3536d69ae260489e40141870e37bd354fde3013c613",
+   "file_name": "vnish-s19jpro-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19jpro-aml-nand-v1.3.5.tar.gz",
+   "route_id": "s19jpro-aml-nand",
+   "is_default": true,
+   "supersedes": "s19jpro-aml-nand-v1.3.4"
+  },
+  {
+   "id": "s19jpro-a-aml-nand-v1.3.5",
+   "model_id": "s19jpro-a",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21574626,
+   "sha256": "e554eeac25e76512bf0cfd444d160f0cee9fb13a2c62b43bf74d8c0b2908624a",
+   "file_name": "vnish-s19jpro-a-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19jpro-a-aml-nand-v1.3.5.tar.gz",
+   "route_id": "s19jpro-a-aml-nand",
+   "is_default": true,
+   "supersedes": "s19jpro-a-aml-nand-v1.3.4"
+  },
+  {
+   "id": "s19jpro-plus-aml-nand-v1.3.5",
+   "model_id": "s19jpro-plus",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21566914,
+   "sha256": "42d15ac890ef92bdd69cd4bfbe517435751b4e49ee9a36d531f29474bd10c6cc",
+   "file_name": "vnish-s19jpro-plus-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19jpro-plus-aml-nand-v1.3.5.tar.gz",
+   "route_id": "s19jpro-plus-aml-nand",
+   "is_default": true,
+   "supersedes": "s19jpro-plus-aml-nand-v1.3.4"
+  },
+  {
+   "id": "s19kpro-aml-nand-v1.3.5",
+   "model_id": "s19kpro",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21550002,
+   "sha256": "862e5879fdd051e044a3a2f8e1cd1e0b1061a338add5dd1b7a1c0e7924e75c39",
+   "file_name": "vnish-s19kpro-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19kpro-aml-nand-v1.3.5.tar.gz",
+   "route_id": "s19kpro-aml-nand",
+   "is_default": true,
+   "supersedes": "s19kpro-aml-nand-v1.3.4"
+  },
+  {
+   "id": "s19xp-aml-nand-v1.3.5",
+   "model_id": "s19xp",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21566147,
+   "sha256": "eab00a9f6cccda6c35598244a326833958928c9ccf25c45d1d261e261da88656",
+   "file_name": "vnish-s19xp-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19xp-aml-nand-v1.3.5.tar.gz",
+   "route_id": "s19xp-aml-nand",
+   "is_default": true,
+   "supersedes": "s19xp-aml-nand-v1.3.4"
+  },
+  {
+   "id": "s19-126-cv-nand-v1.3.5",
+   "model_id": "s19-126",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 12389303,
+   "sha256": "423e8463a91b43590db4d68b762ab73ec03fe8cc0083ace62374783e89571156",
+   "file_name": "vnish-s19-126-cv-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19-126-cv-nand-v1.3.5.tar.gz",
+   "route_id": "s19-126-cv-nand",
+   "is_default": true,
+   "supersedes": "s19-126-cv-nand-v1.3.4"
+  },
+  {
+   "id": "s19-88-cv-nand-v1.3.5",
+   "model_id": "s19-88",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 12388915,
+   "sha256": "944139ca3de3c6256161bcdc7413b5a92c17561421217586463905cca05a0a54",
+   "file_name": "vnish-s19-88-cv-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19-88-cv-nand-v1.3.5.tar.gz",
+   "route_id": "s19-88-cv-nand",
+   "is_default": true,
+   "supersedes": "s19-88-cv-nand-v1.3.4"
+  },
+  {
+   "id": "s19j-plus-cv-nand-v1.3.5",
+   "model_id": "s19j-plus",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 12370158,
+   "sha256": "cf1b3469cddb7fb7bb74821af3aaa5fb3469d5d689959942cd60cacb8265dc9c",
+   "file_name": "vnish-s19j-plus-cv-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19j-plus-cv-nand-v1.3.5.tar.gz",
+   "route_id": "s19j-plus-cv-nand",
+   "is_default": true,
+   "supersedes": "s19j-plus-cv-nand-v1.3.4"
+  },
+  {
+   "id": "s19j-cv-nand-v1.3.5",
+   "model_id": "s19j",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 12367100,
+   "sha256": "c115983f2e7fd0047f2b959d5fcedb2da86dfa086abd2c480373b67edb22b755",
+   "file_name": "vnish-s19j-cv-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19j-cv-nand-v1.3.5.tar.gz",
+   "route_id": "s19j-cv-nand",
+   "is_default": true,
+   "supersedes": "s19j-cv-nand-v1.3.4"
+  },
+  {
+   "id": "s19j-bb-nand-v1.3.5",
+   "model_id": "s19j",
+   "board_platform": {
+    "code": "bb",
+    "label": "BB"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 19250124,
+   "sha256": "1a486fa4b31c42369e850d8804061eb78abe36523a0d105af141131d6cb600b3",
+   "file_name": "vnish-s19j-bb-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19j-bb-nand-v1.3.5.tar.gz",
+   "route_id": "s19j-bb-nand",
+   "is_default": true,
+   "supersedes": "s19j-bb-nand-v1.3.4"
+  },
+  {
+   "id": "s19jpro-plus-cv-nand-v1.3.5",
+   "model_id": "s19jpro-plus",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 12390023,
+   "sha256": "583f62cd2cfda7ef0df48223adb549a98bf77ac43fb0adf7352830bf966edf21",
+   "file_name": "vnish-s19jpro-plus-cv-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19jpro-plus-cv-nand-v1.3.5.tar.gz",
+   "route_id": "s19jpro-plus-cv-nand",
+   "is_default": true,
+   "supersedes": "s19jpro-plus-cv-nand-v1.3.4"
+  },
+  {
+   "id": "s19jpro-a-bb-nand-v1.3.5",
+   "model_id": "s19jpro-a",
+   "board_platform": {
+    "code": "bb",
+    "label": "BB"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 19276765,
+   "sha256": "fea695b330385677fd71b36deeb8e981ca09c602a0cb0917c80b16ec87485643",
+   "file_name": "vnish-s19jpro-a-bb-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19jpro-a-bb-nand-v1.3.5.tar.gz",
+   "route_id": "s19jpro-a-bb-nand",
+   "is_default": true,
+   "supersedes": "s19jpro-a-bb-nand-v1.3.4"
+  },
+  {
+   "id": "s19jpro-plus-xil-nand-v1.3.5",
+   "model_id": "s19jpro-plus",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16177934,
+   "sha256": "071e9da4597da9223b7475c476b8818d11ea4cf91433cd02f23584a484eac1e8",
+   "file_name": "vnish-s19jpro-plus-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19jpro-plus-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19jpro-plus-xil-nand",
+   "is_default": true,
+   "supersedes": "s19jpro-plus-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s19kpro-cv-nand-v1.3.5",
+   "model_id": "s19kpro",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 12368197,
+   "sha256": "94cd710ecf527a7abefbb24d48126d47d6402dff1733ad356be0eb4d9333d5c3",
+   "file_name": "vnish-s19kpro-cv-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19kpro-cv-nand-v1.3.5.tar.gz",
+   "route_id": "s19kpro-cv-nand",
+   "is_default": true,
+   "supersedes": "s19kpro-cv-nand-v1.3.4"
+  },
+  {
+   "id": "s19j-xp-cv-nand-v1.3.5",
+   "model_id": "s19j-xp",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 12365068,
+   "sha256": "58d2b534595532214f19676f9eba6cd3ac1a9e59ede5eb519a3a8d2129f04dc3",
+   "file_name": "vnish-s19j-xp-cv-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19j-xp-cv-nand-v1.3.5.tar.gz",
+   "route_id": "s19j-xp-cv-nand",
+   "is_default": true,
+   "supersedes": "s19j-xp-cv-nand-v1.3.4"
+  },
+  {
+   "id": "s19plus-xil-nand-v1.3.5",
+   "model_id": "s19plus",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16182680,
+   "sha256": "b30f62dcdfeaf4277975ad58479e23165303880747ac6d7e4c257ae3b00982ac",
+   "file_name": "vnish-s19plus-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19plus-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19plus-xil-nand",
+   "is_default": true,
+   "supersedes": "s19plus-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s19kpro-xil-nand-v1.3.5",
+   "model_id": "s19kpro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16171515,
+   "sha256": "57d8ccf101df3dcfbe9fb2f392647ea4724d8ccc0516ccd83ed1b27ce5719be4",
+   "file_name": "vnish-s19kpro-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19kpro-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19kpro-xil-nand",
+   "is_default": true,
+   "supersedes": "s19kpro-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s19pro-hydro-xil-nand-v1.3.5",
+   "model_id": "s19pro-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16197859,
+   "sha256": "dfcc1ce7cc5a7f9b3a188ff3352123a05745e547a8e9367d8907a3bad394eccb",
+   "file_name": "vnish-s19pro-hydro-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19pro-hydro-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19pro-hydro-xil-nand",
+   "is_default": true,
+   "supersedes": "s19pro-hydro-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s19pro-a-xil-nand-v1.3.5",
+   "model_id": "s19pro-a",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16198437,
+   "sha256": "a5c3c14a3e27d489374358b3fb8f7b203c50f2c213f3dd65749ea8bdd35dd9f7",
+   "file_name": "vnish-s19pro-a-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19pro-a-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19pro-a-xil-nand",
+   "is_default": true,
+   "supersedes": "s19pro-a-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s19xp-cv-nand-v1.3.5",
+   "model_id": "s19xp",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 12397672,
+   "sha256": "68e550414b10a1e3c00dc59d06c7bb0c43d5a524d33c70bd3290755444578ace",
+   "file_name": "vnish-s19xp-cv-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19xp-cv-nand-v1.3.5.tar.gz",
+   "route_id": "s19xp-cv-nand",
+   "is_default": true,
+   "supersedes": "s19xp-cv-nand-v1.3.4"
+  },
+  {
+   "id": "s19pro-xil-nand-v1.3.5",
+   "model_id": "s19pro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16202388,
+   "sha256": "10c54fa93b1856c3034d68faaf2c14a1b5a9182c70db92c8ffe147b36d5fab4b",
+   "file_name": "vnish-s19pro-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19pro-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19pro-xil-nand",
+   "is_default": true,
+   "supersedes": "s19pro-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s19pro-hydro-120-xil-nand-v1.3.5",
+   "model_id": "s19pro-hydro-120",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16196563,
+   "sha256": "82cc9567ceabfe1cca969612561be199e413710f365505ead500ea505ca81375",
+   "file_name": "vnish-s19pro-hydro-120-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19pro-hydro-120-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19pro-hydro-120-xil-nand",
+   "is_default": true,
+   "supersedes": "s19pro-hydro-120-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s19xp-xil-nand-v1.3.5",
+   "model_id": "s19xp",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16194287,
+   "sha256": "ae0cf9be1d4f9792f2a158f29146bda224fdfc36a5ae9c37837e218a29a4bdfe",
+   "file_name": "vnish-s19xp-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19xp-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19xp-xil-nand",
+   "is_default": true,
+   "supersedes": "s19xp-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s19xp-hydro-xil-nand-v1.3.5",
+   "model_id": "s19xp-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16178821,
+   "sha256": "10768a6b207debc0f85297b00063dca1fcb3fb5cab435de8c9bb8c3bfbe07353",
+   "file_name": "vnish-s19xp-hydro-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19xp-hydro-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19xp-hydro-xil-nand",
+   "is_default": true,
+   "supersedes": "s19xp-hydro-xil-nand-v1.3.4"
+  },
+  {
+   "id": "t19-hydro-xil-nand-v1.3.5",
+   "model_id": "t19-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16175276,
+   "sha256": "4bd4fd56d12d325256627b31a1984b9cbea3e97042b69c0cd5073b0a17331978",
+   "file_name": "vnish-t19-hydro-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-t19-hydro-xil-nand-v1.3.5.tar.gz",
+   "route_id": "t19-hydro-xil-nand",
+   "is_default": true,
+   "supersedes": "t19-hydro-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s19pro-plus-hydro-xil-nand-v1.3.5",
+   "model_id": "s19pro-plus-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16204564,
+   "sha256": "89ff5c7e2a5e35a35f5350cae6008b23e77364cf1c7da443ea3c3be777bedd14",
+   "file_name": "vnish-s19pro-plus-hydro-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s19pro-plus-hydro-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s19pro-plus-hydro-xil-nand",
+   "is_default": true,
+   "supersedes": "s19pro-plus-hydro-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s21-hydro-xil-nand-v1.3.5",
+   "model_id": "s21-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16183541,
+   "sha256": "a1b84f29104d4bb7b87053cec19cea2a85031a119b4cb0798436845d1ef6fe13",
+   "file_name": "vnish-s21-hydro-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s21-hydro-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s21-hydro-xil-nand",
+   "is_default": true,
+   "supersedes": "s21-hydro-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s21plus-hydro-xil-nand-v1.3.5",
+   "model_id": "s21plus-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16193304,
+   "sha256": "e2235f72b4bab0c6c38cfd1879176ccdde9a3e1c105b1684887e4677e7a5fc51",
+   "file_name": "vnish-s21plus-hydro-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s21plus-hydro-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s21plus-hydro-xil-nand",
+   "is_default": true,
+   "supersedes": "s21plus-hydro-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s21-imm-aml-nand-v1.3.5",
+   "model_id": "s21-imm",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21574860,
+   "sha256": "d0a57caff9c7adf022f0e9047306d81d229c4978ec9b5c757784c17a68b4fc6e",
+   "file_name": "vnish-s21-imm-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s21-imm-aml-nand-v1.3.5.tar.gz",
+   "route_id": "s21-imm-aml-nand",
+   "is_default": true,
+   "supersedes": "s21-imm-aml-nand-v1.3.4"
+  },
+  {
+   "id": "s21plus-aml-nand-v1.3.5",
+   "model_id": "s21plus",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21570052,
+   "sha256": "6552b1cfb2c5297e75a36f00d945e601d58aff3408ab873c2992e1873b320a26",
+   "file_name": "vnish-s21plus-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s21plus-aml-nand-v1.3.5.tar.gz",
+   "route_id": "s21plus-aml-nand",
+   "is_default": true,
+   "supersedes": "s21plus-aml-nand-v1.3.4"
+  },
+  {
+   "id": "t21-cv-nand-v1.3.5",
+   "model_id": "t21",
+   "board_platform": {
+    "code": "cv",
+    "label": "CV"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 12362299,
+   "sha256": "597e15133d3bdfe8aafb96315342602facfe9226a196e61a8567e93a8d408e41",
+   "file_name": "vnish-t21-cv-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-t21-cv-nand-v1.3.5.tar.gz",
+   "route_id": "t21-cv-nand",
+   "is_default": true,
+   "supersedes": "t21-cv-nand-v1.3.4"
+  },
+  {
+   "id": "s21xp-hydro-xil-nand-v1.3.5",
+   "model_id": "s21xp-hydro",
+   "board_platform": {
+    "code": "xil",
+    "label": "XIL"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 16178115,
+   "sha256": "fcf2dad8a181ff8f59c4f110c3f2d423e12242f1a2f1e5ab046a265d254ee0bf",
+   "file_name": "vnish-s21xp-hydro-xil-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s21xp-hydro-xil-nand-v1.3.5.tar.gz",
+   "route_id": "s21xp-hydro-xil-nand",
+   "is_default": true,
+   "supersedes": "s21xp-hydro-xil-nand-v1.3.4"
+  },
+  {
+   "id": "s21xp-aml-nand-v1.3.5",
+   "model_id": "s21xp",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21569886,
+   "sha256": "f8baad7feea6e534655a3ecf5c61563aed084f64c1eec53cea8fbf45d117d393",
+   "file_name": "vnish-s21xp-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s21xp-aml-nand-v1.3.5.tar.gz",
+   "route_id": "s21xp-aml-nand",
+   "is_default": true,
+   "supersedes": "s21xp-aml-nand-v1.3.4"
+  },
+  {
+   "id": "s21xp-imm-aml-nand-v1.3.5",
+   "model_id": "s21xp-imm",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21549001,
+   "sha256": "8d0152cf30e12e71fa44e6d0b98b89e42a24cb596a62acbda700b37f378f3d88",
+   "file_name": "vnish-s21xp-imm-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-s21xp-imm-aml-nand-v1.3.5.tar.gz",
+   "route_id": "s21xp-imm-aml-nand",
+   "is_default": true,
+   "supersedes": "s21xp-imm-aml-nand-v1.3.4"
+  },
+  {
+   "id": "t21-aml-nand-v1.3.5",
+   "model_id": "t21",
+   "board_platform": {
+    "code": "aml",
+    "label": "AML"
+   },
+   "install_method": "nand",
+   "version": "1.3.5",
+   "channel": "stable",
+   "size_bytes": 21543890,
+   "sha256": "4dcb70e6774b23a96bb667fc184b433551b3c40f3e7e92e9908c5c54962330ae",
+   "file_name": "vnish-t21-aml-nand-v1.3.5.tar.gz",
+   "download_path": "/downloads/firmware/1.3.5/stable/vnish-t21-aml-nand-v1.3.5.tar.gz",
+   "route_id": "t21-aml-nand",
+   "is_default": true,
+   "supersedes": "t21-aml-nand-v1.3.4"
+  }
+ ]
+}
