@@ -1,0 +1,19 @@
+{
+  "name": "vnish-global-remote-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only public VNISH catalog, Ninja references and ROI ASIC scenario MCP",
+  "engines": {
+    "node": ">=20.10.0"
+  },
+  "scripts": {
+    "test": "node tests/test-protocol.mjs",
+    "build": "python3 build_snapshot.py && python3 build_guides.py"
+  },
+  "dependencies": {
+    "@php-wasm/universal": "3.1.54",
+    "@php-wasm/node-8-4": "3.1.54",
+    "@modelcontextprotocol/sdk": "1.30.0"
+  }
+}
