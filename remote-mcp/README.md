@@ -1,3 +1,19 @@
+## Deployment update: 18 September 2026
+
+The remote MCP endpoint and connection guides are now published:
+
+- MCP endpoint: `https://vnish.global/ai/mcp/index.php`
+- [English connection guide](https://vnish.global/ai/connect/)
+- [Русская инструкция подключения](https://vnish.global/ru/ai/connect/)
+
+Public HTTPS verification with the official MCP JavaScript SDK 1.30.0 passed all 7 checks: PHP execution, protocol initialization, tool listing, resource access and one call to each of the three read-only tools. The negotiated protocol was `2025-11-25`. The two guide files, their stylesheet and the catalog snapshot matched the prepared release by SHA-256 and byte count.
+
+Connection inside native ChatGPT and Claude accounts has not been tested. This result does not claim app-directory approval or physical miner testing.
+
+**The original pre-deployment snapshot is preserved unchanged below. Its planned-publication wording records the earlier state.**
+
+---
+
 # VNISH Global Operator remote MCP
 
 **Status: NOT YET DEPLOYED.** This is a reviewed source package and deployment candidate. The HTTPS endpoint and new connection-guide URLs below are planned. This README does not claim that ChatGPT or Claude has connected to the service or approved a directory listing.
