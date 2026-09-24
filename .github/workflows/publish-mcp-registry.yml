@@ -1,0 +1,79 @@
+name: Publish VNISH Operator to MCP Registry
+
+"on":
+  workflow_dispatch:
+
+# Repository writes and all other token permissions are disabled by default.
+permissions: {}
+
+concurrency:
+  group: vnish-operator-mcp-registry-publication
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.repository == 'vnish-global/vnish-global-operator' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      id-token: write
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Check out the manually selected main commit
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5, resolved 2026-09-24
+        with:
+          ref: ${{ github.sha }}
+          fetch-depth: 1
+          persist-credentials: false
+
+      - name: Verify the reviewed metadata and require a new registration
+        run: |
+          set -euo pipefail
+          printf '%s  server.json\n' '20462103f794d81e28bafacdf935f24171983b36e477cabe3988726fbb3a6ba5' | sha256sum --check --strict
+          curl --fail --silent --show-error --location --proto '=https' --proto-redir '=https' --tlsv1.2 \
+            'https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.vnish-global%2Fvnish-global-operator' \
+            --output "$RUNNER_TEMP/registry-before.json"
+          python3 - <<'PY'
+          import json, os
+          from pathlib import Path
+          candidate = json.loads(Path('server.json').read_text())
+          result = json.loads((Path(os.environ['RUNNER_TEMP']) / 'registry-before.json').read_text())
+          assert isinstance(result.get('servers'), list), 'Unexpected registry response; stop'
+          assert not result.get('metadata', {}).get('nextCursor'), 'Paginated response; review manually'
+          assert candidate['name'] == 'io.github.vnish-global/vnish-global-operator'
+          assert candidate['version'] == '1.0.0'
+          assert candidate['remotes'] == [{'type': 'streamable-http', 'url': 'https://vnish.global/ai/mcp/index.php'}]
+          assert all(item['server']['name'] != candidate['name'] for item in result['servers']), 'Existing registration found; do not duplicate or republish'
+          PY
+
+      - name: Download and verify the pinned official publisher
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP"
+          curl --fail --silent --show-error --location --proto '=https' --proto-redir '=https' --tlsv1.2 \
+            'https://github.com/modelcontextprotocol/registry/releases/download/v1.8.1/mcp-publisher_linux_amd64.tar.gz' \
+            --output mcp-publisher_linux_amd64.tar.gz
+          printf '%s  mcp-publisher_linux_amd64.tar.gz\n' 'a06c9096dcb9727c13555b6be26c7effa707b01f06a4c561ba7a3635443cf2cc' | sha256sum --check --strict
+          tar --extract --gzip --file mcp-publisher_linux_amd64.tar.gz --no-same-owner --no-same-permissions mcp-publisher
+          chmod 700 mcp-publisher
+
+      - name: Validate metadata with the registry before authentication
+        run: '"$RUNNER_TEMP/mcp-publisher" validate server.json'
+
+      # This is the authorization boundary. OIDC grants the owner namespace,
+      # while the metadata hash and commands above restrict this workflow to one server.
+      - name: Authenticate with temporary GitHub OIDC
+        run: '"$RUNNER_TEMP/mcp-publisher" login github-oidc --registry https://registry.modelcontextprotocol.io'
+
+      - name: Publish this one reviewed server version once
+        run: '"$RUNNER_TEMP/mcp-publisher" publish server.json'
+
+      - name: Remove the publisher login from the ephemeral runner
+        if: always()
+        run: |
+          if [ -x "$RUNNER_TEMP/mcp-publisher" ]; then
+            "$RUNNER_TEMP/mcp-publisher" logout
+          fi
